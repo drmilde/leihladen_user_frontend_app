@@ -4,6 +4,7 @@ import 'package:leihladen_user_frontend_app/widgets/app_drawer_widget.dart';
 import 'package:leihladen_user_frontend_app/widgets/bild_widget.dart';
 import 'package:leihladen_user_frontend_app/widgets/bottom_navigation_bar_widget.dart';
 import 'package:leihladen_user_frontend_app/widgets/hauptseiten_widget.dart';
+import 'package:leihladen_user_frontend_app/widgets/kachel_grid_widget.dart';
 
 class AuswaehlenScreen extends StatelessWidget {
   @override
@@ -14,15 +15,11 @@ class AuswaehlenScreen extends StatelessWidget {
       ),
       drawer: AppDrawerWidget(),
       body: HauptseitenWidget(
-        BildWidget("assets/images/header/gemischtwaren_sepia.jpg"),
-        Container(
-          height: MediaQuery.of(context).size.height - 300,
-          width: MediaQuery.of(context).size.width,
-          child: Placeholder(),
-        ),
-        Container(),
-      ),
-      bottomNavigationBar: BottomNavigationBarWidget(0),
+          BildWidget("assets/images/header/gemischtwaren_sepia.jpg"),
+          KachelGridWidget(300, 100,3,3),
+      Container(),
+    ),
+    bottomNavigationBar: BottomNavigationBarWidget(0),
     );
-  }
+    }
 }

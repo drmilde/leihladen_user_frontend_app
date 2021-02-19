@@ -4,6 +4,7 @@ import 'package:leihladen_user_frontend_app/widgets/bild_widget.dart';
 import 'package:leihladen_user_frontend_app/widgets/bottom_navigation_bar_widget.dart';
 import 'package:leihladen_user_frontend_app/widgets/hauptseiten_widget.dart';
 import 'package:leihladen_user_frontend_app/widgets/infotext_widget.dart';
+import 'package:leihladen_user_frontend_app/widgets/kachel_grid_widget.dart';
 
 class MitmachenScreen extends StatelessWidget {
   @override
@@ -18,11 +19,7 @@ class MitmachenScreen extends StatelessWidget {
         InfotextWidget("Der Leihladen lebt mit und von Ihnen, unseren Kunden."
             " Wir freuen uns, wenn Sie unser Angebot nutzen."
             " Spenden Sie Dinge, die Sie selten verwenden."),
-        Container(
-          height: 300,
-          width: 300,
-          child: Placeholder(),
-        ),
+        KachelGridWidget(260, 130,2,2),
       ),
       bottomNavigationBar: BottomNavigationBarWidget(3),
     );

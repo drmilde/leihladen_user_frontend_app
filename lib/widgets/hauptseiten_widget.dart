@@ -15,6 +15,7 @@ class HauptseitenWidget extends StatelessWidget {
       child: SingleChildScrollView(
         child: Container(
           child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
             children: [
               _bildWidget,
               SizedBox(

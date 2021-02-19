@@ -4,6 +4,7 @@ import 'package:leihladen_user_frontend_app/widgets/bild_widget.dart';
 import 'package:leihladen_user_frontend_app/widgets/bottom_navigation_bar_widget.dart';
 import 'package:leihladen_user_frontend_app/widgets/hauptseiten_widget.dart';
 import 'package:leihladen_user_frontend_app/widgets/infotext_widget.dart';
+import 'package:leihladen_user_frontend_app/widgets/kachel_grid_widget.dart';
 
 class AusleihenScreen extends StatelessWidget {
   @override
@@ -19,11 +20,7 @@ class AusleihenScreen extends StatelessWidget {
             " dann reservieren Sie die Dinge"
             " für den gewünschten Zeitraum."
             " Beim Abholen legen Sie Ihren Leihausweis vor."),
-        Container(
-          height: 300,
-          width: 300,
-          child: Placeholder(),
-        ),
+        KachelGridWidget(260, 130,2,2),
       ),
       bottomNavigationBar: BottomNavigationBarWidget(1),
     );
