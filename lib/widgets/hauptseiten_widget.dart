@@ -12,23 +12,22 @@ class HauptseitenWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Padding(
       padding: const EdgeInsets.all(8.0),
-      child: SingleChildScrollView(
-        child: Container(
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              _bildWidget,
-              SizedBox(
-                height: 8,
-              ),
-              _infoTextWidget,
-              SizedBox(
-                height: 8,
-              ),
-              _kachelGridWidget,
-            ],
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          _bildWidget,
+          SizedBox(
+            height: 8,
           ),
-        ),
+          _infoTextWidget,
+          SizedBox(
+            height: 8,
+          ),
+          Expanded(
+            flex: 1,
+            child: _kachelGridWidget,
+          ),
+        ],
       ),
     );
   }

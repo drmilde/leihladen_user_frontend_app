@@ -8,7 +8,8 @@ class KachelGridWidget extends StatelessWidget {
   Color _cellColor;
   Widget _screen;
 
-  KachelGridWidget(this._width, this._cellSize, this._zeilen, this._spalten, this._screen) {
+  KachelGridWidget(
+      this._width, this._cellSize, this._zeilen, this._spalten, this._screen) {
     // todo tabellen berechnung einfügen
     _width += (16 * _spalten);
   }
@@ -16,13 +17,7 @@ class KachelGridWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     _cellColor = Theme.of(context).primaryColor;
-    return Container(
-      width: _width,
-      child: Expanded(
-        flex: 1,
-        child: _createTable(context),
-      ),
-    );
+    return _createTable(context);
   }
 
   Table _createTable(context) {
@@ -36,7 +31,7 @@ class KachelGridWidget extends StatelessWidget {
   }
 
   TableRow _createTableRow(context) {
-    List<Widget> spalten = [];
+    List<TableCell> spalten = [];
     for (int i = 0; i < _spalten; i++) {
       spalten.add(_createTableCell(context));
     }
@@ -45,15 +40,15 @@ class KachelGridWidget extends StatelessWidget {
     );
   }
 
-  Padding _createTableCell(context) {
-    return Padding(
-      padding: const EdgeInsets.all(8.0),
-      child: GestureDetector(
-        onTap: () {
-          Navigator.push(
-              context, MaterialPageRoute(builder: (context) => _screen));
-        },
-        child: TableCell(
+  TableCell _createTableCell(context) {
+    return TableCell(
+      child: Padding(
+        padding: const EdgeInsets.all(8.0),
+        child: GestureDetector(
+          onTap: () {
+            Navigator.push(
+                context, MaterialPageRoute(builder: (context) => _screen));
+          },
           child: Container(
               color: _cellColor,
               height: _cellSize,
