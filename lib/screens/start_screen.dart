@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/rendering.dart';
 
 import 'hauptseiten/auswaehlen_screen.dart';
 
@@ -22,9 +23,20 @@ class StartScreen extends StatelessWidget {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Container(
-                  height: 70,
-                  child: Placeholder(),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceAround,
+                  children: [
+                    Container(
+                      height: 100,
+                      width: 100,
+                      child: Image.asset("assets/images/logos/logo_buergerzentrum_haus_klein.png"),
+                    ),
+                    Container(
+                      width: 100,
+                      height: 100,
+                      child: Image.asset("assets/images/logos/awo_logo.png"),
+                    )
+                  ],
                 ),
                 SizedBox(
                   height: 50,
@@ -32,17 +44,28 @@ class StartScreen extends StatelessWidget {
                 Container(
                   height: 200,
                   width: 200,
-                  child: Placeholder(),
+                  child: Image.asset("assets/images/logos/ll_neues_logo.png"),
                 ),
                 SizedBox(
                   height: 50,
                 ),
-                Container(
-                  height: 70,
-                  child: Placeholder(),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceAround,
+                  children: [
+                    Container(
+                      height: 100,
+                      width: 100,
+                      child: Image.asset("assets/images/logos/logo_weiss_stadtfulda_klein.jpg"),
+                    ),
+                    Container(
+                      width: 100,
+                      height: 100,
+                      child: Image.asset("assets/images/logos/dpl_logo_512.jpg"),
+                    )
+                  ],
                 ),
                 SizedBox(
-                  height: 50,
+                  height: 10,
                 ),
                 Text("Zum Starten, den Bildschirm berühren")
               ],

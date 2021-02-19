@@ -75,6 +75,14 @@ flutter:
     - assets/images/symbol/warenkorb_symbol.png
     - assets/images/symbol/werkstatt_symbol.png
     - assets/images/symbol/wunschliste_symbol.png
+    - assets/images/logos/dpl_logo_512.jpg
+    - assets/images/logos/ic_launcher.png
+    - assets/images/logos/ll_neues_logo.png
+    - assets/images/logos/logo_buergerzentrum_haus_klein.png
+    - assets/images/logos/logo_weiss_stadtfulda_klein.jpg
+    - assets/images/logos/ll_neues_logo.png
+    - assets/images/logos/map_dingelstedtstrasse.png
+    - assets/images/logos/awo_logo.png
 
 
   # An image asset can refer to one or more resolution-specific "variants", see

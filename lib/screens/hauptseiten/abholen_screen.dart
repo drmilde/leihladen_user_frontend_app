@@ -17,7 +17,7 @@ class AbholenScreen extends StatelessWidget {
         Container(
           height: MediaQuery.of(context).size.height - 300,
           width: MediaQuery.of(context).size.width,
-          child: Placeholder(),
+          child: Image.asset("assets/images/logos/map_dingelstedtstrasse.png"),
         ),
         Container(),
       ),

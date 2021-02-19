@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:leihladen_user_frontend_app/screens/start_screen.dart';
 import 'package:leihladen_user_frontend_app/widgets/app_drawer_widget.dart';
 import 'package:leihladen_user_frontend_app/widgets/bild_widget.dart';
 import 'package:leihladen_user_frontend_app/widgets/bottom_navigation_bar_widget.dart';
@@ -20,7 +21,7 @@ class AusleihenScreen extends StatelessWidget {
             " dann reservieren Sie die Dinge"
             " für den gewünschten Zeitraum."
             " Beim Abholen legen Sie Ihren Leihausweis vor."),
-        KachelGridWidget(260, 130,2,2),
+        KachelGridWidget(260, 130,2,2, StartScreen()),
       ),
       bottomNavigationBar: BottomNavigationBarWidget(1),
     );

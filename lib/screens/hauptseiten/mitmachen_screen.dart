@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:leihladen_user_frontend_app/screens/start_screen.dart';
 import 'package:leihladen_user_frontend_app/widgets/app_drawer_widget.dart';
 import 'package:leihladen_user_frontend_app/widgets/bild_widget.dart';
 import 'package:leihladen_user_frontend_app/widgets/bottom_navigation_bar_widget.dart';
@@ -19,7 +20,7 @@ class MitmachenScreen extends StatelessWidget {
         InfotextWidget("Der Leihladen lebt mit und von Ihnen, unseren Kunden."
             " Wir freuen uns, wenn Sie unser Angebot nutzen."
             " Spenden Sie Dinge, die Sie selten verwenden."),
-        KachelGridWidget(260, 130,2,2),
+        KachelGridWidget(260, 130,2,2, StartScreen()),
       ),
       bottomNavigationBar: BottomNavigationBarWidget(3),
     );
