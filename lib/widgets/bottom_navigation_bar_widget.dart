@@ -2,12 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:leihladen_user_frontend_app/screens/hauptseiten/abholen_screen.dart';
 import 'package:leihladen_user_frontend_app/screens/hauptseiten/ausleihen_screen.dart';
 import 'package:leihladen_user_frontend_app/screens/hauptseiten/auswaehlen_screen.dart';
+import 'package:leihladen_user_frontend_app/screens/hauptseiten/haupt_seiten_screen.dart';
 import 'package:leihladen_user_frontend_app/screens/hauptseiten/mitmachen_screen.dart';
 
 class BottomNavigationBarWidget extends StatefulWidget {
   int _currentIndex = 0;
+  HauptSeitenScreen _hauptSeitenScreen;
 
-  BottomNavigationBarWidget(this._currentIndex);
+  BottomNavigationBarWidget(this._currentIndex, this._hauptSeitenScreen);
 
   @override
   _BottomNavigationBarWidgetState createState() =>
@@ -23,31 +25,7 @@ class _BottomNavigationBarWidgetState extends State<BottomNavigationBarWidget> {
       onTap: (int index) {
         setState(() {
           widget._currentIndex = index;
-           if (index == 0) {
-            Navigator.pushReplacement(context,
-                MaterialPageRoute(builder: (context) {
-              return AuswaehlenScreen();
-            }));
-          }
-          if (index == 1) {
-            Navigator.pushReplacement(context,
-                MaterialPageRoute(builder: (context) {
-              return AusleihenScreen();
-            }));
-          }
-          if (index == 2) {
-            Navigator.pushReplacement(context,
-                MaterialPageRoute(builder: (context) {
-              return AbholenScreen();
-            }));
-          }
-
-          if (index == 3) {
-            Navigator.pushReplacement(context,
-                MaterialPageRoute(builder: (context) {
-              return MitmachenScreen();
-            }));
-          }
+          widget._hauptSeitenScreen.setSelectedScreen(index);
         });
       },
       items: [

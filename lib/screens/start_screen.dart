@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
+import 'package:leihladen_user_frontend_app/screens/hauptseiten/haupt_seiten_screen.dart';
 
 import 'hauptseiten/auswaehlen_screen.dart';
 
@@ -14,7 +15,7 @@ class StartScreen extends StatelessWidget {
         onTap: () {
           // Weiter zu nächsten Seite
           Navigator.push(context, MaterialPageRoute(builder: (context) {
-            return AuswaehlenScreen();
+            return HauptSeitenScreen();
           }));
         },
         child: SingleChildScrollView(
