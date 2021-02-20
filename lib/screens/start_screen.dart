@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:leihladen_user_frontend_app/screens/hauptseiten/haupt_seiten_screen.dart';
 
-import 'hauptseiten/auswaehlen_screen.dart';
-
 class StartScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
