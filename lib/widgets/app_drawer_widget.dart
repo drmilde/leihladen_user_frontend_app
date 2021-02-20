@@ -3,7 +3,6 @@ import 'package:leihladen_user_frontend_app/screens/ausleihen/entliehen_screen.d
 import 'package:leihladen_user_frontend_app/screens/ausleihen/leihausweis_screen.dart';
 import 'package:leihladen_user_frontend_app/screens/ausleihen/reservierung_screen.dart';
 import 'package:leihladen_user_frontend_app/screens/ausleihen/warenkorb_screen.dart';
-import 'package:leihladen_user_frontend_app/screens/hauptseiten/mitmachen_screen.dart';
 import 'package:leihladen_user_frontend_app/screens/info/impressum_screen.dart';
 import 'package:leihladen_user_frontend_app/screens/info/info_screen.dart';
 import 'package:leihladen_user_frontend_app/screens/info/system_info_screen.dart';
@@ -20,14 +19,19 @@ class AppDrawerWidget extends StatelessWidget {
         },
         child: ListView(
           children: [
-            UserAccountsDrawerHeader(
-              accountName: Text("Jan-Torsten Milde"),
-              accountEmail: Text("Lauterbach"),
-              currentAccountPicture: CircleAvatar(
-                backgroundColor: Theme.of(context).accentColor,
-                child: Text(
-                  "JT",
-                  style: TextStyle(fontSize: 40.0),
+            GestureDetector(
+              onTap: () {
+                Navigator.push(context, MaterialPageRoute(builder: (context) => LeihausweisScreen()));
+              },
+              child: UserAccountsDrawerHeader(
+                accountName: Text("Jan-Torsten Milde"),
+                accountEmail: Text("Lauterbach"),
+                currentAccountPicture: CircleAvatar(
+                  backgroundColor: Theme.of(context).accentColor,
+                  child: Text(
+                    "JT",
+                    style: TextStyle(fontSize: 40.0),
+                  ),
                 ),
               ),
             ),

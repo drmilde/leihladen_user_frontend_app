@@ -24,27 +24,38 @@ class HauptSeitenScreen extends StatefulWidget {
 
 class _HauptSeitenScreenState extends State<HauptSeitenScreen> {
   int _selectedScreen = 0;
+  List<Widget> content;
+  List<FloatingActionButton> floatActionButtons;
+  List<String> titles;
 
-  List<Widget> content = [
-    AuswaehlenScreen(),
-    AusleihenScreen(),
-    AbholenScreen(),
-    MitmachenScreen()
-  ];
+  @override
+  void initState() {
+    initPages();
+    super.initState();
+  }
 
-  List<FloatingActionButton> floatActionButtons = [
-    null,
-    null,
-    null,
-    null,
-  ];
+  void initPages() {
+    content = [
+      AuswaehlenScreen(),
+      AusleihenScreen(),
+      AbholenScreen(),
+      MitmachenScreen()
+    ];
 
-  List<String> titles = [
-    "Auswählen",
-    "Ausleihen",
-    "Abholen",
-    "Mitmachen",
-  ];
+    floatActionButtons = [
+      null,
+      null,
+      null,
+      null,
+    ];
+
+    titles = [
+      "Auswählen",
+      "Ausleihen",
+      "Abholen",
+      "Mitmachen",
+    ];
+  }
 
   @override
   Widget build(BuildContext context) {
