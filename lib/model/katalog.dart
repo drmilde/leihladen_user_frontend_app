@@ -10,6 +10,26 @@ Katalog katalogFromJson(String str) => Katalog.fromJson(json.decode(str));
 
 String katalogToJson(Katalog data) => json.encode(data.toJson());
 
+enum Kategorie {
+  AZ,       // 0 -> 0
+  Haushalt, // 2 -> 1
+  Freizeit, // 7 -> 2
+  Kinder,   // 9 -> 3
+  Spiel,    // 3 -> 4
+  Medien,   // 5 -> 5
+  Garten,   // 2 -> 6
+  Werkzeug, // 4 -> 7
+  Kueche,   // 8 -> 8
+  Musik,    // 6 -> 9
+  Sonstiges, // 10
+  Beliebt,   // 11
+  Reserviert, // 12
+  Ausgeliehen, // 13
+  Verschwunden, // 14
+  Defekt, // 15
+}
+
+
 class Katalog {
   Katalog({
     this.version,
@@ -38,6 +58,10 @@ class Katalog {
   static Future<Katalog> loadFromAsset() async {
     String data = await rootBundle.loadString('assets/katalog/json_daten_formatiert.json');
     return katalogFromJson(data.trim());
+  }
+  
+  List<Eintrag> filterKategorie (Kategorie kat) {
+    return data.where((e) => e.kategorien.contains(kat.index)).toList();
   }
 
 }
