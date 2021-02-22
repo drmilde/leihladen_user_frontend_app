@@ -1,5 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:leihladen_user_frontend_app/screens/katalog/katalog_screen.dart';
+import 'package:leihladen_user_frontend_app/screens/mitmachen/fragen_screen.dart';
+import 'package:leihladen_user_frontend_app/screens/mitmachen/neuigkeiten_screen.dart';
+import 'package:leihladen_user_frontend_app/screens/mitmachen/vorschlaege_screen.dart';
+import 'package:leihladen_user_frontend_app/screens/mitmachen/wunschliste_screen.dart';
 import 'package:leihladen_user_frontend_app/screens/start_screen.dart';
 import 'package:leihladen_user_frontend_app/widgets/app_drawer_widget.dart';
 import 'package:leihladen_user_frontend_app/widgets/bild_widget.dart';
@@ -17,7 +21,7 @@ class MitmachenScreen extends StatelessWidget {
     List<Widget> cells = [
       KachelGridWidget.buildCell(
         context,
-        KatalogScreen(),
+        NeuigkeitenScreen(),
         "assets/images/symbol/chat_symbol.png",
         "Neuigkeiten",
         cellColor,
@@ -25,7 +29,7 @@ class MitmachenScreen extends StatelessWidget {
       ),
       KachelGridWidget.buildCell(
         context,
-        KatalogScreen(),
+        WunschlisteScreen(),
         "assets/images/symbol/beliebt_symbol.png",
         "Wunschliste",
         cellColor,
@@ -33,7 +37,7 @@ class MitmachenScreen extends StatelessWidget {
       ),
       KachelGridWidget.buildCell(
         context,
-        KatalogScreen(),
+        VorschlaegeScreen(),
         "assets/images/symbol/wunschliste_symbol.png",
         "Vorschläge",
         cellColor,
@@ -41,7 +45,7 @@ class MitmachenScreen extends StatelessWidget {
       ),
       KachelGridWidget.buildCell(
         context,
-        KatalogScreen(),
+        FragenScreen(),
         "assets/images/symbol/message_symbol.png",
         "Fragen",
         cellColor,
