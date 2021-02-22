@@ -5,7 +5,7 @@ class KachelGridWidget extends StatelessWidget {
   double _width;
   int _zeilen = 2;
   int _spalten = 2;
-  Color _cellColor;
+  Color _cellColor = Colors.green;
   Widget _screen;
 
   // Content Widgets
@@ -14,7 +14,7 @@ class KachelGridWidget extends StatelessWidget {
 
   KachelGridWidget(
       this._width, this._cellSize, this._zeilen, this._spalten, this._screen,
-      {this.cells = null}) {
+      {this.cells = const []}) {
     // todo tabellen berechnung einfügen
     _width += (16 * _spalten);
     _count = 0;
