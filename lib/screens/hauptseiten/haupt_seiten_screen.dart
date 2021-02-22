@@ -39,7 +39,7 @@ class _HauptSeitenScreenState extends State<HauptSeitenScreen> {
       AuswaehlenScreen(),
       AusleihenScreen(),
       AbholenScreen(),
-      MitmachenScreen()
+      MitmachenScreen(),
     ];
 
     floatActionButtons = [
