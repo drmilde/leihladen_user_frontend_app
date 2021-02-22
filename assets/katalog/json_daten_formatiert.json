@@ -1,0 +1,2491 @@
+{
+   "version":"2.0",
+   "stand":"22.02.2021",
+   "data":[
+      {
+         "inventarnummer":"IN00001",
+         "bezeichnung":"Komplett Verrückt",
+         "bilder":[
+            "IN00001.jpg"
+         ],
+         "beschreibung":"Jeder schnappt sich einen Mustermixer und schüttelt die Würfel kräftig durch, so dass sich ein Farbmuster ergibt. Jetzt läuft die Zeit: Durch Verrücken der Spielsteine auf seinem Spielbrett versucht nun jeder Spieler, so schnell wie möglich das Muster des Mustermixers komplett nachzubauen - wer als Erster fertig ist, hat gewonnen. ",
+         "dimension":"6x30x17 cm",
+         "gewicht":"1000 g",
+         "kleinteil":"ja",
+         "kaution":"5.00",
+         "kosten":"0.40",
+         "kategorien":[
+            4,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00002",
+         "bezeichnung":"Mixer",
+         "bilder":[
+            "IN00002.jpg"
+         ],
+         "beschreibung":"Ein Handrührgerät, Handmixer oder Küchenmixer (bisweilen auch Sahneschläger genannt) ist ein in der Hand zu haltendes Küchengerät zum Verrühren teigiger oder flüssiger Speisen oder zum Aufschlagen von Sahne. Meist handelt es sich um zwei sich gegeneinander drehende Rührbesen, Quirls oder Knethaken.",
+         "dimension":"Höhe ca. 30 cm",
+         "gewicht":"2.5 kg",
+         "kleinteil":"nein",
+         "kaution":"20.00",
+         "kosten":"2.00",
+         "kategorien":[
+            1,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00003",
+         "bezeichnung":"Gebäckpresse",
+         "bilder":[
+            "IN00003.jpg"
+         ],
+         "beschreibung":"Mit der Gebäckpresse aus Edelstahl kann man wunderbar Kekse in alle möglichen Formen bringen und Kuchen oder Cupcakes hübsch und einfach verzieren. Zubehör: 6 Motivscheiben",
+         "dimension":"10x15x15 cm",
+         "gewicht":"1200 g",
+         "kleinteil":"nein",
+         "kaution":"5.00",
+         "kosten":"2.00",
+         "kategorien":[
+            1,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00004",
+         "bezeichnung":"Backform Kasten mit Trage",
+         "bilder":[
+            "IN00004.jpg"
+         ],
+         "beschreibung":"Die Kastenform ist ein wahrer Klassiker. Sie wird hauptsächlich für Brot und Kuchen verwendet.",
+         "dimension":"12x35x12 cm",
+         "gewicht":"1000 g",
+         "kleinteil":"nein",
+         "kaution":"5.00",
+         "kosten":"2.00",
+         "kategorien":[
+            1,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00005",
+         "bezeichnung":"Survival",
+         "bilder":[
+            "IN00005.jpg"
+         ],
+         "beschreibung":"Wie überlebst du einen Haiangriff? Wie überlebst du den Sturz in eine Gletscherspalte? Wie überlebst du den Sprung von einer Brücke in den Fluss? -- Spiele das Spiel und teste deinen Überlebensinstinkt. Wie würdest du in den absonderlichsten Situationen und Worst Case-Szenarien handeln? Für jedes Szenario stehen drei Überlebensstrategien zur Auswahl ... Doch nur eine ist richtig. Weißt du sie, rückt dein Sieg in diesem Überlebenskampf etwas näher. Antwortest du falsch, musst du den Gefahren in Wüste, Wald und Dschungel zum Vorteil deiner Mitspieler weiter trotzen. ",
+         "dimension":"18x13x4 cm",
+         "gewicht":"285 g",
+         "kleinteil":"ja",
+         "kaution":"5.00",
+         "kosten":"0.40",
+         "kategorien":[
+            4,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00006",
+         "bezeichnung":"Käsebrett",
+         "bilder":[
+            "IN00006.jpg"
+         ],
+         "beschreibung":"Bei diesem kniffligen Geschicklichkeitsspiel werden spielerisch die Auge-Hand-Koordination sowie die Feinmotorik gefördert. Mit den beiden Seilen rechts und links wird die Maus über den löchrigen Käse gesteuert. Natürlich soll sie nicht gleich in den ganzen Käse hineinfallen, sondern es möglichst bis ganz nach oben schaffen.",
+         "dimension":"5x35x20 cm",
+         "gewicht":"1200 g",
+         "kleinteil":"ja",
+         "kaution":"5.00",
+         "kosten":"0.40",
+         "kategorien":[
+            4,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00007",
+         "bezeichnung":"Skip-Bo",
+         "bilder":[
+            "IN00007.jpg"
+         ],
+         "beschreibung":"Skip- Bo ist ein Kartenspiel mit 144 Zahlenkarten und 18 Skip-Bo-Jokern, also insgesamt 162 Karten. Es ist ein Spiel für zwei bis sechs Spieler ab 8 Jahren und dauert in der Regel 30 Minuten.",
+         "dimension":"18x13x4 cm",
+         "gewicht":"285 g",
+         "kleinteil":"ja",
+         "kaution":"5.00",
+         "kosten":"0.40",
+         "kategorien":[
+            4,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00008",
+         "bezeichnung":"Puzzle James Rizzi 1000 Teile",
+         "bilder":[
+            "IN00008.jpg"
+         ],
+         "beschreibung":"James Rizzi: Times Square - Everyone should go there, 1000 Teile.",
+         "dimension":"5x40x25 cm",
+         "gewicht":"1000 g",
+         "kleinteil":"ja",
+         "kaution":"5.00",
+         "kosten":"0.40",
+         "kategorien":[
+            4,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00009",
+         "bezeichnung":"Puzzle \"Sheep World\" 1000 Teile",
+         "bilder":[
+            "IN00009.jpg"
+         ],
+         "beschreibung":"Puzzle \"Sheep World\" 1000 Teile",
+         "dimension":"5x40x25 cm",
+         "gewicht":"1000 g",
+         "kleinteil":"ja",
+         "kaution":"5.00",
+         "kosten":"0.40",
+         "kategorien":[
+            4,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00010",
+         "bezeichnung":"Trivial Pursuit",
+         "bilder":[
+            "IN00010.jpg"
+         ],
+         "beschreibung":"Das Spielfeld von Trivial Pursuit ist ein Rad mit sechs Speichen. Die sechs Endpunkte der Speichen sind die Eckfelder, auf denen der Spieler die Keile oder Wissensecken für seinen Spielstein, den so genannten Wissensspeicher, sammeln kann.",
+         "dimension":"10x30x30 cm",
+         "gewicht":"1500 g",
+         "kleinteil":"ja",
+         "kaution":"5.00",
+         "kosten":"0.40",
+         "kategorien":[
+            4,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00011",
+         "bezeichnung":"Fiesling",
+         "bilder":[
+            "IN00011.jpg"
+         ],
+         "beschreibung":"Bei Fiesling werden die Mitspieler durch bis zu sechs Eigenschaftsplättchen beschrieben. Dabei ist es von Vorteil, die gesuchte Person präzise charakterisieren und die Eigenschaften der Mitspieler gut zu kennen.",
+         "dimension":"18x13x4 cm",
+         "gewicht":"285 g",
+         "kleinteil":"ja",
+         "kaution":"5.00",
+         "kosten":"0.40",
+         "kategorien":[
+            4,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00012",
+         "bezeichnung":"Elfer raus!",
+         "bilder":[
+            "IN00012.jpg"
+         ],
+         "beschreibung":"Beim Kartenspiel Elfer raus! müssen die Spieler farbige Zahlenkarten auslegen. Wer keine Handkarten mehr besitzt, gewinnt. Die Karten werden an farblich passende Kartenreihen angelegt, entweder auf- oder absteigend. ",
+         "dimension":"18x13x4 cm",
+         "gewicht":"285 g",
+         "kleinteil":"ja",
+         "kaution":"5.00",
+         "kosten":"0.40",
+         "kategorien":[
+            4,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00013",
+         "bezeichnung":"Schätzen Sie mal",
+         "bilder":[
+            "IN00013.jpg"
+         ],
+         "beschreibung":"Schätzen Sie mal! - Mann & Frau. widmet sich mit 180 spannenden und humorvollen, lehrreichen und skurrilen Fragen typisch weiblichen und männlichen Themen.",
+         "dimension":"5x20x20 cm",
+         "gewicht":"1000 g",
+         "kleinteil":"ja",
+         "kaution":"5.00",
+         "kosten":"0.40",
+         "kategorien":[
+            4,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00014",
+         "bezeichnung":"Black Stories",
+         "bilder":[
+            "IN00014.jpg"
+         ],
+         "beschreibung":"Black Stories sind knifflige, morbide, rabenschwarze Geschichten, die sich so oder ähnlich zugetragen haben könnten. Die Spieler befragen den Spielleiter, um die Hintergründe der jeweiligen Geschichte herauszufinden.",
+         "dimension":"18x13x4 cm",
+         "gewicht":"285 g",
+         "kleinteil":"ja",
+         "kaution":"5.00",
+         "kosten":"0.40",
+         "kategorien":[
+            4,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00015",
+         "bezeichnung":"Phase 10",
+         "bilder":[
+            "IN00015.jpg"
+         ],
+         "beschreibung":"Beim Spiel Phase 10 müssen die Spieler insgesamt 10 Phasen durchlaufen. In jeder Phase gilt es, eine bestimmte Kombination aus Karten zu sammeln und vor sich auszulegen. Dabei kann es sich um Zwillinge, Drillinge, eine Zahlenfolge oder auch Kombinationen aus allem handeln.",
+         "dimension":"18x13x4 cm",
+         "gewicht":"285 g",
+         "kleinteil":"ja",
+         "kaution":"5.00",
+         "kosten":"0.40",
+         "kategorien":[
+            4,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00016",
+         "bezeichnung":"SET!",
+         "bilder":[
+            "IN00016.jpg"
+         ],
+         "beschreibung":"In SET! legt ein Kartengeber so lange Karten auf dem Tisch aus, bis entweder zwölf Karten ausgelegt sind, oder einer der (beliebig vielen) Mitspieler \"Set\" ruft. Damit zeigt der Mitspieler, dass er drei Karten ausgemacht hat, die ein Set ergeben. Ist das korrekt, darf er sich die drei Karten nehmen, und der Kartengeber ersetzt sie gegebenenfalls durch neue sofern vorhanden. Liegt der Mitspieler falsch, so ist dieser vom Spiel ausgeschlossen bis ein anderer Mitspieler ein Set findet.",
+         "dimension":"18x13x4 cm",
+         "gewicht":"285 g",
+         "kleinteil":"ja",
+         "kaution":"5.00",
+         "kosten":"0.40",
+         "kategorien":[
+            4,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00017",
+         "bezeichnung":"Metallknobeleien",
+         "bilder":[
+            "IN00017.jpg"
+         ],
+         "beschreibung":"Erst durch die Öse, dann zweimal umdrehen, jetzt noch einmal das hintere Ende nach vorn ziehen - schon sind die Teile entwirrt. Oder auch nicht. Denn auch die geschicktesten Hände haben hier jede Menge zu knobeln. Mit 12 kniffeligen Tricks in der Metalldose.",
+         "dimension":"18x13x4 cm",
+         "gewicht":"285 g",
+         "kleinteil":"ja",
+         "kaution":"5.00",
+         "kosten":"0.40",
+         "kategorien":[
+            4,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00018",
+         "bezeichnung":"Rush Hour",
+         "bilder":[
+            "IN00018.jpg"
+         ],
+         "beschreibung":"Das Spiel besteht aus einem 6×6 Felder großen Spielfeld, einem roten Auto, das es aus einem Verkehrsstau zu befreien gilt (zwei Felder groß), sowie elf blockierenden Autos (je zwei Felder) und vier blockierenden Lkw (je drei Felder) in unterschiedlichen Farben. Die Aufgabe besteht nun darin, das rote Auto durch Rangieren der Fahrzeuge zum (einzigen) Ausgang zu bewegen.",
+         "dimension":"18x13x4 cm",
+         "gewicht":"285 g",
+         "kleinteil":"ja",
+         "kaution":"5.00",
+         "kosten":"0.40",
+         "kategorien":[
+            4,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00019",
+         "bezeichnung":"Glück, Verstand, Edelsteine",
+         "bilder":[
+            "IN00019.jpg"
+         ],
+         "beschreibung":"Florentiner Domino besteht aus 52 quadratischen Karten, die jeweils zwei bis vier Farbflächen enthalten. Reihum legen die Spieler jeweils eine Karte an die bereits ausliegenden an. Dabei dürfen sich nur Flächen mit gleicher Farbe berühren. Die Spieler versuchen ihre Karten so zu legen, dass geschlossene Gebiete in ihrer Farbe entstehen. Nur dafür gibt es am Ende Punkte. Je mehr Edelsteine ein solches Gebiet enthält, desto wertvoller ist es. Florentiner Domino ist ein recht einfaches Spiel. Es erfordert Aufmerksamkeit, aber auch ein wenig Überlegung, damit die Gebiete nicht nur groß, sondern auch vollständig werden. Die Jagd auf die bunten Edelsteine macht auch Erwachsenen Spaß.",
+         "dimension":"10x40x10 cm",
+         "gewicht":"1500 g",
+         "kleinteil":"ja",
+         "kaution":"5.00",
+         "kosten":"0.40",
+         "kategorien":[
+            4,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00020",
+         "bezeichnung":"Im Wassergarten",
+         "bilder":[
+            "IN00020.jpg"
+         ],
+         "beschreibung":"Bei Im Wassergarten bekommen die Spieler vier Plättchen, mit Bildern von Wasserpflanzen. Nun versuchen alle Spieler gleichzeitig, ihre Motive auf den ausliegenden Plättchen zu finden",
+         "dimension":"18x13x4 cm",
+         "gewicht":"285 g",
+         "kleinteil":"ja",
+         "kaution":"5.00",
+         "kosten":"0.40",
+         "kategorien":[
+            4,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00021",
+         "bezeichnung":"Tanz der 13 blauen Mäuse",
+         "bilder":[
+            "IN00021.jpg"
+         ],
+         "beschreibung":"Abgehackte Mäuseschwänze sind nicht erlaubt. Es ist ganz schön schwierig, die 36 Karten mit 13 kompletten Mäusen in ein Quadrat zu legen. Kein Platz im Quadrat darf frei bleiben: für jede Maus sind 3 Bildkarten reserviert, oft müssen sich die Schwänze überkreuzen. Kinder lösen das Problem durch Probieren; Erwachsene verzweifeln daran, dass die Logik in der Anordnung der Mäuse so schwer zu durchschauen ist",
+         "dimension":"10x30x10 cm",
+         "gewicht":"1000 g",
+         "kleinteil":"ja",
+         "kaution":"5.00",
+         "kosten":"0.40",
+         "kategorien":[
+            4,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00022",
+         "bezeichnung":"Spieleset",
+         "bilder":[
+            "IN00022.jpg"
+         ],
+         "beschreibung":"Feiern und Spielen mit den Kindern: Eierlauf, Weitwurf und Dreibeinspiel.",
+         "dimension":"7x30x30 cm",
+         "gewicht":"1000 g",
+         "kleinteil":"ja",
+         "kaution":"5.00",
+         "kosten":"0.40",
+         "kategorien":[
+            4,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00023",
+         "bezeichnung":"Poker",
+         "bilder":[
+            "IN00023.jpg"
+         ],
+         "beschreibung":"Poker Texas Holdem bezeichnet allgemein all jene Poker-Varianten, bei denen fünf offene Karten (Board cards, auch Community cards) in die Mitte des Tisches gelegt werden, die von jedem Spieler zur Bildung seiner Pokerhand verwendet werden können, während jeder Spieler jedoch nicht mehr als zwei seiner Hand-Karten (Hole cards) verwenden darf.",
+         "dimension":"7x20x20 cm",
+         "gewicht":"1000 g",
+         "kleinteil":"ja",
+         "kaution":"5.00",
+         "kosten":"0.40",
+         "kategorien":[
+            4,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00024",
+         "bezeichnung":"Wer ist es?",
+         "bilder":[
+            "IN00024.jpg"
+         ],
+         "beschreibung":"Bei Wer ist es? müssen Spieler ein Gesicht identifizieren. Durch Fragen versuchen sie, falsche Gesichter auszuschließen - bis schließlich nur noch das gesuchte Gesicht übrigbleibt. ",
+         "dimension":"5x25x25 cm",
+         "gewicht":"1000 g",
+         "kleinteil":"ja",
+         "kaution":"5.00",
+         "kosten":"0.40",
+         "kategorien":[
+            4,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00025",
+         "bezeichnung":"Spiel mit 4",
+         "bilder":[
+            "IN00025.jpg"
+         ],
+         "beschreibung":"Jeder Spieler besitzt 21 gleichfarbige Spielsteine. Wenn ein Spieler einen Spielstein in eine Spalte fallen lässt, besetzt dieser den untersten freien Platz der Spalte. Gewinner ist der Spieler, der es als erster schafft, vier oder mehr seiner Spielsteine waagerecht, senkrecht oder diagonal in eine Linie zu bringen.",
+         "dimension":"7x25x25 cm",
+         "gewicht":"1000 g",
+         "kleinteil":"ja",
+         "kaution":"5.00",
+         "kosten":"0.40",
+         "kategorien":[
+            4,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00026",
+         "bezeichnung":"Lese- und Rechentelefon",
+         "bilder":[
+            "IN00026.jpg"
+         ],
+         "beschreibung":"Ein Lernspiel für Kinder von 6-10. Das Spiel funktioniert nach dem Wählscheibenprinzip, bei richtiger Wahl aller Buchstaben oder Zahlen zeigt der Pfeil auf das richtige Bild",
+         "dimension":"37x4x27 cm",
+         "gewicht":"640 g",
+         "kleinteil":"ja",
+         "kaution":"5.00",
+         "kosten":"0.40",
+         "kategorien":[
+            4,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00027",
+         "bezeichnung":"Puzzle: 2x9 Mäuschen",
+         "bilder":[
+            "IN00027.jpg"
+         ],
+         "beschreibung":"Ein Puzzle für die Kleinsten. 9 Teile und zwei Mäuschenmotive.",
+         "dimension":"5x20x20 cm",
+         "gewicht":"300 g",
+         "kleinteil":"ja",
+         "kaution":"5.00",
+         "kosten":"0.40",
+         "kategorien":[
+            4,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00028",
+         "bezeichnung":"Hollywood Poker",
+         "bilder":[
+            "IN00028.jpg"
+         ],
+         "beschreibung":"In diesem lustigen Kartenspiel ist alles möglich: Vom Tellerwäscher zum Hollywoodstar und umgekehrt!",
+         "dimension":"18x13x4 cm",
+         "gewicht":"500 g",
+         "kleinteil":"ja",
+         "kaution":"5.00",
+         "kosten":"0.40",
+         "kategorien":[
+            4,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00029",
+         "bezeichnung":"Blinde Kuh",
+         "bilder":[
+            "IN00029.jpg"
+         ],
+         "beschreibung":"Blinde Kuh kann man in vier Varianten spielen. Bei einer Variante muss man mit verbundenen Augen Papptiere aus einem Beutel ziehen und richtig benennen. Wer die meisten Tiere erraten konnte, ist der Sieger. ",
+         "dimension":"18x13x4 cm",
+         "gewicht":"500 g",
+         "kleinteil":"ja",
+         "kaution":"5.00",
+         "kosten":"0.40",
+         "kategorien":[
+            4,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00030",
+         "bezeichnung":"Benjamin Blümchen",
+         "bilder":[
+            "IN00030.jpg"
+         ],
+         "beschreibung":"Macht euch mit Benjamin Blümchen und Otto auf zu einer spannenden Reise um die Welt. Wer als Erster die Motive auf den Plättchen den richtigen Kontinenten zugeordnet hat, gewinnt.",
+         "dimension":"27x19x7 cm",
+         "gewicht":"750 g",
+         "kleinteil":"ja",
+         "kaution":"5.00",
+         "kosten":"0.40",
+         "kategorien":[
+            4,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00031",
+         "bezeichnung":"Der Ritter der Haselnuss",
+         "bilder":[
+            "IN00031.jpg"
+         ],
+         "beschreibung":"Haselnüsse und Räuber befinden sich als Karten in den 8 Stapeln, die den Feldern des Planes zugeordnet sind. Als ritterliche Eichhörnchen sammeln wir Haselnüsse und nehmen uns in Acht vor bösen Räubern.",
+         "dimension":"25x10x5 cm",
+         "gewicht":"750 g",
+         "kleinteil":"ja",
+         "kaution":"5.00",
+         "kosten":"0.40",
+         "kategorien":[
+            4,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00032",
+         "bezeichnung":"Monopoly",
+         "bilder":[
+            "IN00032.jpg"
+         ],
+         "beschreibung":"Das Ziel von Monopoly ist, ein Grundstückimperium aufzubauen, um so seinen Kontostand in die Höhe zu treiben und die restlichen Mitspieler in den Bankrott zu führen. Hierfür werden Straßen gekauft, die mit Häusern bebaut werden können. ",
+         "dimension":"7x27x19 cm",
+         "gewicht":"1000 g",
+         "kleinteil":"ja",
+         "kaution":"5.00",
+         "kosten":"0.40",
+         "kategorien":[
+            4,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00033",
+         "bezeichnung":"Obstgarten",
+         "bilder":[
+            "IN00033.jpg"
+         ],
+         "beschreibung":"Beim Obstgarten müssen die Spieler alle gemeinsam versuchen die Früchte von den Bäumen einzusammeln, bevor der Rabe den Garten erreicht. Welche Frucht eingesammelt wird, oder ob der Rabe läuft, entscheidet der Würfel.",
+         "dimension":"7x27x19 cm",
+         "gewicht":"1000 g",
+         "kleinteil":"ja",
+         "kaution":"5.00",
+         "kosten":"0.40",
+         "kategorien":[
+            4,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00034",
+         "bezeichnung":"Monopoly Deutschland",
+         "bilder":[
+            "IN00034.jpg"
+         ],
+         "beschreibung":"Das Spielprinzip bleibt bei Monopoly Deutschland unverändert, d.h. jeder Spieler würfelt mit 2W6 und zieht das Würfel-Ergebnis an Spielfeldern im Uhrzeigersinn weiter. Je nach Spielfeld kann er dann Straßen kaufen, Miete zahlen, Sonderabgaben zahlen oder eine Karte ziehen. Außerdem kann er bauen, wenn er alle Grundstücke einer Farbgruppe hat.",
+         "dimension":"7x27x19 cm",
+         "gewicht":"1000 g",
+         "kleinteil":"ja",
+         "kaution":"5.00",
+         "kosten":"0.40",
+         "kategorien":[
+            4,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00035",
+         "bezeichnung":"Alugussbräter mit Fritiereinsatz",
+         "bilder":[
+            "IN00035.jpg"
+         ],
+         "beschreibung":"Der Bräter mit feuerfestem Glasdeckel ist vielfätig nutzbar, spülmaschinengeeignet und durch eine gute Wärmeaufnahme und -Verteilung sehr energieeffizient.",
+         "dimension":"25x40x25 cm",
+         "gewicht":"2000 g",
+         "kleinteil":"nein",
+         "kaution":"20.00",
+         "kosten":"2.00",
+         "kategorien":[
+            1,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00036",
+         "bezeichnung":"Kärcher + Zubehör",
+         "bilder":[
+            "IN00036.jpg"
+         ],
+         "beschreibung":"Als Hochdruckreiniger wird ein Arbeitsgerät bezeichnet, das mit Hilfe von 15 bis über 1000 bar Wasserdruck und gegebenenfalls unter Zusatz von Reinigungsmitteln hartnäckige Verschmutzungen entfernt.",
+         "dimension":"Höhe ca. 70 cm",
+         "gewicht":"5 kg",
+         "kleinteil":"nein",
+         "kaution":"50.00",
+         "kosten":"2.00",
+         "kategorien":[
+            6,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00037",
+         "bezeichnung":"Zelt, 3-Personen",
+         "bilder":[
+            "IN00037.jpg"
+         ],
+         "beschreibung":"Für den kleinen Campingausflug zwischendurch. Funktionstüchtig; ein Satz von 18 Heringen liegt bei.",
+         "dimension":"25x25x70 cm",
+         "gewicht":"5 kg",
+         "kleinteil":"nein",
+         "kaution":"20.00",
+         "kosten":"2.00",
+         "kategorien":[
+            2,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00038",
+         "bezeichnung":"Leichter Schlafsack",
+         "bilder":[
+            "IN00038.jpg"
+         ],
+         "beschreibung":"Ein Schlafsack ist eine Hülle zum Schlafen, die den Körper mit Ausnahme von Kopf oder Gesicht (je nach Modell) umschließt. Der Oberstoff besteht je nach Verwendungszweck aus Leinen, Baumwolle, Vliesstoffen, Seide oder heute aus Kunstseide, und ist heute zur Wärmedämmung mit Kunstfasern, früher mit Daunen gefüttert",
+         "dimension":"30x60x30",
+         "gewicht":"2500 g",
+         "kleinteil":"nein",
+         "kaution":"20.00",
+         "kosten":"2.00",
+         "kategorien":[
+            2,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00039",
+         "bezeichnung":"Keyboard \"Bontempi\"",
+         "bilder":[
+            "IN00039.jpg"
+         ],
+         "beschreibung":"Einfaches Instrument mit 60 Tasten, eingebauten Lautsprechern und Rhymthmusfunktion. Geeignet für erste Schritte im Keyboardspiel.",
+         "dimension":"15x70x25 cm",
+         "gewicht":"5 kg",
+         "kleinteil":"nein",
+         "kaution":"50.00",
+         "kosten":"2.00",
+         "kategorien":[
+            9,
+            5,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00040",
+         "bezeichnung":"Elektrische Heizdecke \"Sanitas\"",
+         "bilder":[
+            "IN00040.jpg"
+         ],
+         "beschreibung":"Die Sanitas Heizdecke mit 6 Temperaturstufen, Abschaltautomatik und 110 Watt Leistung. Elektronische Temperaturregelung mit Sicherheitssystem und extraweiches, atmungsaktives Obermaterial.",
+         "dimension":"180x130 cm ",
+         "gewicht":"1.6 kg",
+         "kleinteil":"nein",
+         "kaution":"20.00",
+         "kosten":"2.00",
+         "kategorien":[
+            10,
+            2,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00041",
+         "bezeichnung":"Handmixer \"AFK\"",
+         "bilder":[
+            "IN00041.jpg"
+         ],
+         "beschreibung":"Ein Handrührgerät, Handmixer oder Küchenmixer (bisweilen auch Sahneschläger genannt) ist ein in der Hand zu haltendes Küchengerät zum Verrühren teigiger oder flüssiger Speisen oder zum Aufschlagen von Sahne. Meist handelt es sich um zwei sich gegeneinander drehende Rührbesen, Quirls oder Knethaken.",
+         "dimension":"20x20x20 cm",
+         "gewicht":"1500 g",
+         "kleinteil":"nein",
+         "kaution":"20.00",
+         "kosten":"2.00",
+         "kategorien":[
+            1,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00042",
+         "bezeichnung":"Smoothiemaker \"Russel Hobbs\"",
+         "bilder":[
+            "IN00042.jpg"
+         ],
+         "beschreibung":"Mit dem Smoothiemaker sind frische und vitaminreiche Smoothies im Handumdrehen zubereitet: einfach Zutaten in den Behälter geben, Deckel aufsetzen, Mixvorgang starten und fertig ist der Smoothie zum Soforttrinken oder Mitnehmen",
+         "dimension":"15x15x40 cm",
+         "gewicht":"1.4 kg",
+         "kleinteil":"nein",
+         "kaution":"20.00",
+         "kosten":"2.00",
+         "kategorien":[
+            1,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00043",
+         "bezeichnung":"Waffeleisen \"Mickey Mouse\"",
+         "bilder":[
+            "IN00043.jpg"
+         ],
+         "beschreibung":"Jetzt kommt Mickey Mouse als knusprige Waffel auf den Teller. Die Antihaft-Beschichtung der Heizplatten sorgt dafür, dass die Waffeln unbeschadet aus dem Gerät herausgenommen und das Mickey-Gesicht komplett genascht werden kann.",
+         "dimension":"20x22x12 cm ",
+         "gewicht":"2500 g",
+         "kleinteil":"nein",
+         "kaution":"20.00",
+         "kosten":"2.00",
+         "kategorien":[
+            1,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00044",
+         "bezeichnung":"Massagegerät",
+         "bilder":[
+            "IN00044.jpg"
+         ],
+         "beschreibung":"Elektrisches Massagegerät zum Entspannen",
+         "dimension":"20x20x20 cm",
+         "gewicht":"2000 g",
+         "kleinteil":"nein",
+         "kaution":"20.00",
+         "kosten":"2.00",
+         "kategorien":[
+            10,
+            2,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00045",
+         "bezeichnung":"Infrarotlampe \"Dr. Kern\"",
+         "bilder":[
+            "IN00045.jpg"
+         ],
+         "beschreibung":"Behandeln Sie Muskelkater, Muskelverspannungen, Rückenverspannungen und -schmerzen einfach und effizient mit einer Infraorotlampe. Das Rotlicht entfaltet seine Wärme an der gewünschten Stelle ohne dabei schädliche UV-Strahlung zu erzeugen. Die Wärme dringt in den Körper ein, fördert die Durchblutung und hilft Ihnen so zu entspannen. Auch bei einer Erkältung kann die Wärmelampe Linderung verschaffen.",
+         "dimension":"20x20x20 cm",
+         "gewicht":"2000 g",
+         "kleinteil":"nein",
+         "kaution":"5.00",
+         "kosten":"2.00",
+         "kategorien":[
+            10,
+            2,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00046",
+         "bezeichnung":"Infrarotlampe \"Sanitas\"",
+         "bilder":[
+            "IN00046.jpg"
+         ],
+         "beschreibung":"Behandeln Sie Muskelkater, Muskelverspannungen, Rückenverspannungen und -schmerzen einfach und effizient mit einer Infraorotlampe. Das Rotlicht entfaltet seine Wärme an der gewünschten Stelle ohne dabei schädliche UV-Strahlung zu erzeugen. Die Wärme dringt in den Körper ein, fördert die Durchblutung und hilft Ihnen so zu entspannen. Auch bei einer Erkältung kann die Wärmelampe Linderung verschaffen.",
+         "dimension":"20x20x20 cm",
+         "gewicht":"2000 g",
+         "kleinteil":"nein",
+         "kaution":"5.00",
+         "kosten":"2.00",
+         "kategorien":[
+            10,
+            2,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00047",
+         "bezeichnung":"Inhalator \"Kamillosan\"",
+         "bilder":[
+            "IN00047.jpg"
+         ],
+         "beschreibung":"Beim Inhalieren werden Wirkstoffe wie ätherische Öle oder auch Medikamente in die Atemwege eingeatmet (Inhalation). Auch eine Kochsalzlösung hat sich beim Inhalieren bewährt. Die Wirkung des Inhalierens wird vor allem bei der Behandlung von Atemwegserkankungen genutzt. So kann Inhalieren bei Schnupfen und Husten wirksam sein.",
+         "dimension":"20x20x20 cm",
+         "gewicht":"2000 g",
+         "kleinteil":"nein",
+         "kaution":"5.00",
+         "kosten":"2.00",
+         "kategorien":[
+            10,
+            2,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00048",
+         "bezeichnung":"Waffeleisen, Sandwichmaker",
+         "bilder":[
+            "IN00048.jpg"
+         ],
+         "beschreibung":"Sandwichmaker für kleine Snacks. Der Sandwichmaker ist ein elektrisches Küchengerät zur Zubereitung von gebackenen Sandwiches. Es funktionert ähnlich wie ein Waffeleisen: eine Weissbrot- oder Toastscheibe wird nach Geschmack belegt, mit einer weiteren Scheibe Brot abgedeckt und dann im Sandwichmaker getoasted. Ein auch bei Kindern sehr beliebter leckerer warmer Snack.",
+         "dimension":"12x30x30 cm",
+         "gewicht":"5 kg",
+         "kleinteil":"nein",
+         "kaution":"5.00",
+         "kosten":"2.00",
+         "kategorien":[
+            1,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00049",
+         "bezeichnung":"Aktenvernichteraufsatz",
+         "bilder":[
+            "IN00049.jpg"
+         ],
+         "beschreibung":"Der Aktenvernichter-aufsatz wird auf einen herkömmlichen Papierkorb aufgesetzt. Die zu vernichtenden Dokumente werden in kleinen Papierstapeln (nicht mehr als 5 Blätter gleichzeitig) in das Gerät eingeführt und so in feine Streifen geschreddert. Die Streifen landen so direkt im Papierkorb und können anschliessend sicher im Papiermüll entsorgt werden.",
+         "dimension":"10x30x10 cm",
+         "gewicht":"2500 g",
+         "kleinteil":"nein",
+         "kaution":"5.00",
+         "kosten":"2.00",
+         "kategorien":[
+            10,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00050",
+         "bezeichnung":"Raclette für 8 Personen",
+         "bilder":[
+            "IN00050.jpg"
+         ],
+         "beschreibung":"Raclette mit acht Pfännchen zum gemütlichen Sylvesterfeiern mit Familie und Freunden. Ganz nach Geschmack und Phantasie können Sie die Pfännchen mit kleingeschnittenen Köstlichkeiten füllen, mit Käse belegen, und unter dem Grill solange erhitzen, bis der Käse schmilzt. Der verwendete Käse sollte einen hohen Fettgehalt haben und leicht schmelzen. Hier bietet sich der würzige Original Raclette Käse aus der Schweiz an.",
+         "dimension":"12x60x25 cm",
+         "gewicht":"5 kg",
+         "kleinteil":"nein",
+         "kaution":"20.00",
+         "kosten":"2.00",
+         "kategorien":[
+            1,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00051",
+         "bezeichnung":"Raclette für 6 Personen",
+         "bilder":[
+            "IN00051.jpg"
+         ],
+         "beschreibung":"Raclette mit sechs Pfännchen zum gemütlichen Sylvesterfeiern mit Familie und Freunden. Ganz nach Geschmack und Phantasie können Sie die Pfännchen mit kleingeschnittenen Köstlichkeiten füllen, mit Käse belegen, und unter dem Grill solange erhitzen, bis der Käse schmilzt. Der verwendete Käse sollte einen hohen Fettgehalt haben und leicht schmelzen. Hier bietet sich der würzige Original Raclette Käse aus der Schweiz an.",
+         "dimension":"15x50x50 cm",
+         "gewicht":"5 kg",
+         "kleinteil":"nein",
+         "kaution":"20.00",
+         "kosten":"2.00",
+         "kategorien":[
+            1,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00052",
+         "bezeichnung":"Diaprojektor",
+         "bilder":[
+            "IN00052.jpg"
+         ],
+         "beschreibung":"Mit dem Diaprojektor können sie gerahmte Dias grossflächig auf eine Leinwand projizieren. Die Bildqualität ist dabei sehr gut. Somit eignet sich das Gerät auch zur Digitalsierung alter Dias: das projizierte Bild wird einfach mit einer Digitalkamera abfotografiert. Die Digitalkamera sollte dabei idealerweise auf einem Stativ montiert sein.",
+         "dimension":"15,25,40 cm",
+         "gewicht":"4 kg",
+         "kleinteil":"nein",
+         "kaution":"20.00",
+         "kosten":"2.00",
+         "kategorien":[
+            5,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00053",
+         "bezeichnung":"Tacker",
+         "bilder":[
+            "IN00053.jpg"
+         ],
+         "beschreibung":"Als Alternative zu Nägeln, Schrauben oder Kleber ist der Tacker das passende Werkzeug. Tackern spart Zeit und ist vor allem beim Befestigen von Folien, Netzen und Stoffen unverzichtbar. Beim Beziehen von Polstern sind Tacker unentbehrlich: da Sie den Tacker nur mit einer Hand halten müssen, haben Sie die andere Hand frei, um den Stoff faltenfrei über das Polster zu spannen.",
+         "dimension":"4x10x10 cm",
+         "gewicht":"1000 g",
+         "kleinteil":"nein",
+         "kaution":"5.00",
+         "kosten":"2.00",
+         "kategorien":[
+            7,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00054",
+         "bezeichnung":"Tacker",
+         "bilder":[
+            "IN00054.jpg"
+         ],
+         "beschreibung":"Als Alternative zu Nägeln, Schrauben oder Kleber ist der Tacker das passende Werkzeug. Tackern spart Zeit und ist vor allem beim Befestigen von Folien, Netzen und Stoffen unverzichtbar. Beim Beziehen von Polstern sind Tacker unentbehrlich: da Sie den Tacker nur mit einer Hand halten müssen, haben Sie die andere Hand frei, um den Stoff faltenfrei über das Polster zu spannen.",
+         "dimension":"4x10x10 cm",
+         "gewicht":"1000 g",
+         "kleinteil":"nein",
+         "kaution":"5.00",
+         "kosten":"2.00",
+         "kategorien":[
+            7,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00055",
+         "bezeichnung":"Folienschweissgerät",
+         "bilder":[
+            "IN00055.jpg"
+         ],
+         "beschreibung":"Mit dem Folienschwiessgerät kann man Plastiktüten verschliessen.",
+         "dimension":"10x35x10 cm",
+         "gewicht":"2000 g",
+         "kleinteil":"nein",
+         "kaution":"5.00",
+         "kosten":"2.00",
+         "kategorien":[
+            1,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00056",
+         "bezeichnung":"Handstaubsauger \"Vorwerk\"",
+         "bilder":[
+            "IN00056.jpg"
+         ],
+         "beschreibung":"Handstaubsauger für Möbel, Auto etc.",
+         "dimension":"15x50x15 cm",
+         "gewicht":"2000 g",
+         "kleinteil":"nein",
+         "kaution":"20.00",
+         "kosten":"2.00",
+         "kategorien":[
+            1,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00057",
+         "bezeichnung":"Heckenschere \"Royal Einhell\"",
+         "bilder":[
+            "IN00057.jpg"
+         ],
+         "beschreibung":"Um im Garten die Hecke oder das Gebüsch zurechtstutzen zu können, benötigen Sie das passende Werkzeug: eine elektrische Heckenschere. Links und rechts vom Schwert sind Messer angebracht, die einen Abstand von 1,5 bis 3,4 cm aufweisen und sich im Betrieb vor- und zurückbewegen. Hiermit kann die Hecke sehr präzise geschnitten werden. Bitte beachten Sie unbedingt alle Sicherheitshinweise, es droht Verletzungsgefahr, der Kontakt mit der Versorgungsspannung kann tödlich sein.",
+         "dimension":"15x17x15 cm",
+         "gewicht":"5 kg",
+         "kleinteil":"nein",
+         "kaution":"50.00",
+         "kosten":"2.00",
+         "kategorien":[
+            1,
+            6,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00058",
+         "bezeichnung":"Akkubohrschrauber \"Black & Decker\"",
+         "bilder":[
+            "IN00058.jpg"
+         ],
+         "beschreibung":"Akkubohrer sind ein vielseitg einsetzbares Werkzeug, um eine Reihe von Arbeiten zu erledigen. ",
+         "dimension":"ca. 30 cm hoch",
+         "gewicht":"1200 g",
+         "kleinteil":"nein",
+         "kaution":"20.00",
+         "kosten":"2.00",
+         "kategorien":[
+            7,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00059",
+         "bezeichnung":"Lötpistole \"Weller\"",
+         "bilder":[
+            "IN00059.jpg"
+         ],
+         "beschreibung":"Die Lötpistole ist ein handliches Werkzeug für schnelle Reparaturen. Durch die Form liegt es gut in der Hand, es verfügt über eine kurze Aufwärmzeit. Nur mit gedrücktem Taster arbeitet die Pistole; andernfalls bleibt sie kalt.",
+         "dimension":"10x10x10 cm",
+         "gewicht":"1500 g",
+         "kleinteil":"nein",
+         "kaution":"20.00",
+         "kosten":"2.00",
+         "kategorien":[
+            7,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00060",
+         "bezeichnung":"Teppichreinigungsgerät \"CLEANmaxx\"",
+         "bilder":[
+            "IN00060.jpg"
+         ],
+         "beschreibung":"Der Teppichreiniger entfernt Verschnmutzungen auf Ihrem Teppich oder Teppichboden und verleiht ihm immer wieder neue Frische.",
+         "dimension":"Höhe ca. 90 cm",
+         "gewicht":"8 kg",
+         "kleinteil":"nein",
+         "kaution":"50.00",
+         "kosten":"2.00",
+         "kategorien":[
+            1,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00061",
+         "bezeichnung":"Schleifgerät \"Black & Decker\"",
+         "bilder":[
+            "IN00061.jpg"
+         ],
+         "beschreibung":"Das Schleifgerät ist durch seine Form ideal, um in kleinen Winkeln zu schleifen, etwa bei der Renovierung von lackierten Holzmöbeln.",
+         "dimension":"15x35x15 cm",
+         "gewicht":"2500 g",
+         "kleinteil":"nein",
+         "kaution":"50.00",
+         "kosten":"2.00",
+         "kategorien":[
+            7,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00062",
+         "bezeichnung":"Gehrungslade mechanisch",
+         "bilder":[
+            "IN00062.jpg"
+         ],
+         "beschreibung":"Eine Gehrungslade ist eine Vorrichtung, mit der Sie gerade aber auch auf Gehrung schneiden können. In den meisten Fällen 45°. Es handelt sich also um die Führung für die Säge.",
+         "dimension":"10x35x10 cm",
+         "gewicht":"1000 g",
+         "kleinteil":"nein",
+         "kaution":"5.00",
+         "kosten":"2.00",
+         "kategorien":[
+            7,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00063",
+         "bezeichnung":"Heissluftpristole \"Kress\"",
+         "bilder":[
+            "IN00063.jpg"
+         ],
+         "beschreibung":"Eine Heißluftpistole, ist ein Elektrowerkzeug, mit dem der Arbeitsbereich gezielt erwärmt werden kann. Ein Gebläse saugt Umgebungsluft an, erhitzt diese mittels eines Heizelements und bläst Heißluft durch ein Austrittsrohr aus. Die Luftdurchflussmenge lässt sich typischerweise zwischen 150 und 500 Liter/min einstellen und die Temperatur von 50 bis 600 °C. Geräten können unterschiedlich geformte Austrittsdüsen zur Lenkung des Heißluftstromes aufgesteckt werden.",
+         "dimension":"12x12x12 cm",
+         "gewicht":"1500 g",
+         "kleinteil":"nein",
+         "kaution":"20.00",
+         "kosten":"2.00",
+         "kategorien":[
+            7,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00064",
+         "bezeichnung":"Schleif- und Gravur-Set \"Hell\"",
+         "bilder":[
+            "IN00064.jpg"
+         ],
+         "beschreibung":"Dieses kompakte Gerät bietet, dank seines Zubehörs, eine große Vielfalt an Anwendungsfällen beim Bohren, Fäsen, Schleifen und Bürsten.",
+         "dimension":"10x10x10 cm",
+         "gewicht":"1500 g",
+         "kleinteil":"nein",
+         "kaution":"20.00",
+         "kosten":"2.00",
+         "kategorien":[
+            10,
+            2,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00065",
+         "bezeichnung":"Handkreissäge \"Black & Becker\"",
+         "bilder":[
+            "IN00065.jpg"
+         ],
+         "beschreibung":"Die Handkreissäge wird eingesetzt, um, bei fester Auflage, Längs- und Querschnitte mit geradem Schnittverlauf und Gehrungswinkel bis 45° in Holz und Kunststoff auszuführen. Wenn beide Hände die Säge halten, können diese vom Sägeblatt nicht verletzt werden. Für das Schneiden von Kunststoff werden spezielle Sägeblätter benötigt.",
+         "dimension":"30x30x30 cm",
+         "gewicht":"3500 g",
+         "kleinteil":"nein",
+         "kaution":"50.00",
+         "kosten":"2.00",
+         "kategorien":[
+            7,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00066",
+         "bezeichnung":"Winkelschleifer",
+         "bilder":[
+            "IN00066.jpg"
+         ],
+         "beschreibung":"Ein Winkelschleifer lässt sich mit einer dünnen Trennscheibe gut zum Trennen von Materialien, wie Metall, Stein oder Kunststoff nutzen. Aufrgrund der hohen Drehzahl darf mit einem Winkelschleifer niemals ohne Schutzbrille gearbeitet werden. ",
+         "dimension":"12x35x12 cm",
+         "gewicht":"2000 g",
+         "kleinteil":"nein",
+         "kaution":"20.00",
+         "kosten":"2.00",
+         "kategorien":[
+            7,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00067",
+         "bezeichnung":"Ökopoly Brettspiel ab 10 Jahren",
+         "bilder":[
+            "IN00067.jpg"
+         ],
+         "beschreibung":"Ökolopoly ist ein Umweltspiel, entwickelt vom Kybernetiker und Umweltforscher Frederic Vester, das spielerischen Zugang zum Umgang mit Rückwirkungen ermöglicht. Es simuliert die Zusammenhänge zwischen Gesellschaft, Wirtschaft und Umwelt in einem Ballungsraum; die Spieler agieren als Entscheidungsträger in Politik und Wirtschaft und versuchen das System in seinen Wechselwirkungen zu steuern.",
+         "dimension":"6x30x17 cm",
+         "gewicht":"1000 g",
+         "kleinteil":"ja",
+         "kaution":"5.00",
+         "kosten":"0.40",
+         "kategorien":[
+            4,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00068",
+         "bezeichnung":"Puzzle \"Stein am Rhein\" 1000 Teile",
+         "bilder":[
+            "IN00068.jpg"
+         ],
+         "beschreibung":"Puzzle \"Stein am Rhein\", 1000 Teile.",
+         "dimension":"6x30x17 cm",
+         "gewicht":"400 g",
+         "kleinteil":"ja",
+         "kaution":"5.00",
+         "kosten":"0.40",
+         "kategorien":[
+            4,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00069",
+         "bezeichnung":"Puzzle \"Der Vogelkäfig\" 1500 Teile",
+         "bilder":[
+            "IN00069.jpg"
+         ],
+         "beschreibung":"Puzzle \"Der Vogelkäfig\", 1500 Teile",
+         "dimension":"6x30x17 cm",
+         "gewicht":"1000 g",
+         "kleinteil":"ja",
+         "kaution":"5.00",
+         "kosten":"0.40",
+         "kategorien":[
+            4,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00071",
+         "bezeichnung":"Lichtertunnel",
+         "bilder":[
+            "IN00071.jpg"
+         ],
+         "beschreibung":"Effektgerät zur stimmungsvollen Beleuchtung bei der nächsten Feier.",
+         "dimension":"35x35x4 cm",
+         "gewicht":"1500 kg",
+         "kleinteil":"nein",
+         "kaution":"20.00",
+         "kosten":"2.00",
+         "kategorien":[
+            10,
+            2,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00072",
+         "bezeichnung":"Schwarzlichtlampe",
+         "bilder":[
+            "IN00072.jpg"
+         ],
+         "beschreibung":"Stimmungsvolle Beleuchtung für die nächste Tanzparty. Auch gut geeignet für das Auffinden von organischen Rückständen auf Oberflächen.",
+         "dimension":"ca. 50 cm lang",
+         "gewicht":"1000 g",
+         "kleinteil":"nein",
+         "kaution":"20.00",
+         "kosten":"2.00",
+         "kategorien":[
+            10,
+            2,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00073",
+         "bezeichnung":"Grossraum- und Partypfanne",
+         "bilder":[
+            "IN00073.jpg"
+         ],
+         "beschreibung":"Partypfannen eignen sich äußerst vielseitig für die Zubereitung unterschiedlichster Speisen. Man kann eine solche Pfanne sowohl zum Grillen, als auch zum Backen und Braten verwenden. Sehr gut gelingen Braten und Fischgerichte, Gratins und Paella sowie Bratkartoffeln.",
+         "dimension":"12x45x45 cm",
+         "gewicht":"2500 g",
+         "kleinteil":"nein",
+         "kaution":"20.00",
+         "kosten":"2.00",
+         "kategorien":[
+            1,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00074",
+         "bezeichnung":"Kabeltrommel 15m",
+         "bilder":[
+            "IN00074.jpg"
+         ],
+         "beschreibung":"Kabeltrommel 15m, für Innenräume geeignet.",
+         "dimension":"25x25x12 cm",
+         "gewicht":"2500 g",
+         "kleinteil":"nein",
+         "kaution":"5.00",
+         "kosten":"2.00",
+         "kategorien":[
+            7,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00075",
+         "bezeichnung":"Teppichrefresher \"Vorwerk\"",
+         "bilder":[
+            "IN00075.jpg"
+         ],
+         "beschreibung":"Mit dem Teppichrefresher können Sie Ihren Teppich und Teppichboden in nur wenigen Arbeitsschritten grundreinigen",
+         "dimension":"ca. 90 cm hoch",
+         "gewicht":"4 kg",
+         "kleinteil":"nein",
+         "kaution":"50.00",
+         "kosten":"2.00",
+         "kategorien":[
+            1,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00076",
+         "bezeichnung":"Kugelgrill",
+         "bilder":[
+            "IN00076.jpg"
+         ],
+         "beschreibung":"Kugelgrill für Parties und Familienfeste.",
+         "dimension":"75x40x40 cm",
+         "gewicht":"7 kg",
+         "kleinteil":"nein",
+         "kaution":"20.00",
+         "kosten":"2.00",
+         "kategorien":[
+            10,
+            2,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00077",
+         "bezeichnung":"Beutelloser Staubsauger \"CLEANmaxx\"",
+         "bilder":[
+            "IN00077.jpg"
+         ],
+         "beschreibung":"Der beutellose Staubsauger mit Zyklontechnologie arbeitet ebenso leistungsstark wie komfortabel. Es entfällt das lästige Einsetzen der Staubsaugerbeutel und natürlich verursachen Sie so auch auch weniger Müll: ein Plus für die Umwelt.",
+         "dimension":"ca. 90 cm hoch",
+         "gewicht":"9 kg",
+         "kleinteil":"nein",
+         "kaution":"50.00",
+         "kosten":"2.00",
+         "kategorien":[
+            1,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00078",
+         "bezeichnung":"Fernglas",
+         "bilder":[
+            "IN00078.jpg"
+         ],
+         "beschreibung":"Ein Fernglas ist ein tragbares Fernrohr. Die binokulare Ausführung ermöglicht es, Objekte mit beiden Augen über getrennte Strahlengänge zu beobachten. Nutzen Sie es für Naturbeobachtungen während ihres nächsten Waldspaziergangs.",
+         "dimension":"10x10x5 cm",
+         "gewicht":"1500 g",
+         "kleinteil":"nein",
+         "kaution":"20.00",
+         "kosten":"2.00",
+         "kategorien":[
+            10,
+            2,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00079",
+         "bezeichnung":"Backform",
+         "bilder":[
+            "IN00079.jpg"
+         ],
+         "beschreibung":"Backform mit 4 Kindermotiven.",
+         "dimension":"30x30x7 cm",
+         "gewicht":"1500 g",
+         "kleinteil":"nein",
+         "kaution":"50.00",
+         "kosten":"2.00",
+         "kategorien":[
+            1,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00080",
+         "bezeichnung":"Scrabble",
+         "bilder":[
+            "IN00080.jpg"
+         ],
+         "beschreibung":"Scrabble ist ein Brettspiel für zwei bis vier Personen, bei dem die Spieler aus zufällig gezogenen Buchstaben Wörter legen und dabei die verschiedenen Bonusfelder auf dem Spielbrett nutzen können.",
+         "dimension":"5x37x27 cm",
+         "gewicht":"650 g",
+         "kleinteil":"ja",
+         "kaution":"5.00",
+         "kosten":"0.40",
+         "kategorien":[
+            4,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00081",
+         "bezeichnung":"MAD",
+         "bilder":[
+            "IN00081.jpg"
+         ],
+         "beschreibung":"Ganz schön MAD: in diesem Spiel geht es darum, sein ganzes Geld zu verlieren. Beim MAD-Spiel wird gegen den Uhrzeigersinn und nur mit der linken Hand gewürfelt (wer mit der rechten Hand würfelt, bekommt Geld) und jeder muss anschließend seine Spielfigur um die gewürfelte Zahl fortbewegen. Dabei muss man – je nachdem auf welchem Feld man landet – Geld zahlen, Geld einnehmen oder eine Ereigniskarte ziehen.",
+         "dimension":"47x24x4 cm",
+         "gewicht":"640 g",
+         "kleinteil":"ja",
+         "kaution":"5.00",
+         "kosten":"0.40",
+         "kategorien":[
+            4,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00082",
+         "bezeichnung":"Das verrückte Labyrinth",
+         "bilder":[
+            "IN00082.jpg"
+         ],
+         "beschreibung":"Bei diesem Spiel bewegen die Spieler ihre Figuren durch ein Labyrinth, das sich ständig verändert. Wie es sich verändert, können die Spieler beeinflussen. Ziel ist es, bestimmte Gegenstände einzusammeln.",
+         "dimension":"6x30x17 cm",
+         "gewicht":"1000 g",
+         "kleinteil":"ja",
+         "kaution":"5.00",
+         "kosten":"0.40",
+         "kategorien":[
+            4,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00083",
+         "bezeichnung":"Anno Domini Münzen",
+         "bilder":[
+            "IN00083.jpg"
+         ],
+         "beschreibung":"Ein kommunikatives Schätzspiel mit einfachen Regeln. Das Spiel hat einen großen Fun-Faktor durch witzige und originelle Ereignisse. Gehen Sie auf eine Reise durch die Zeit vom Kreuzer bis zum Goldtaler, Spieldauer ca. 30 min.",
+         "dimension":"11x7x5 cm",
+         "gewicht":"252 g",
+         "kleinteil":"ja",
+         "kaution":"5.00",
+         "kosten":"0.40",
+         "kategorien":[
+            4,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00084",
+         "bezeichnung":"Spätzlepresse",
+         "bilder":[
+            "IN00084.jpg"
+         ],
+         "beschreibung":"Spätzle- und Kartoffelpresse.",
+         "dimension":"5x15x5 cm",
+         "gewicht":"1000 g",
+         "kleinteil":"nein",
+         "kaution":"20.00",
+         "kosten":"2.00",
+         "kategorien":[
+            1,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00085",
+         "bezeichnung":"Küchenmaschine/Reibe",
+         "bilder":[
+            "IN00085.jpg"
+         ],
+         "beschreibung":"Die Küchenmaschine kann das lästige Raspeln und Reiben übernehmen. Das spart Zeit, ist komfortabel und sicher. Egal, ob Gemüse wie Karotten, Gurken, Zwiebeln, Nüsse oder sogar Käse – die Küchenmaschine ist eine gute Unterstützung, wenn Sie schnell, einfach und lecker kochen möchten.",
+         "dimension":"ca. 30 cm hoch",
+         "gewicht":"2000 g",
+         "kleinteil":"nein",
+         "kaution":"20.00",
+         "kosten":"2.00",
+         "kategorien":[
+            1,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00086",
+         "bezeichnung":"Dampfbügeleisen",
+         "bilder":[
+            "IN00086.jpg"
+         ],
+         "beschreibung":"Dampfbügeln ist wesentlich leichter, sauberer, effizienter und schneller. Durch den austretenden Dampfstoß wird Wasserdampf an die Textilien abgegeben, wodurch die Bügelsohle ohne Druckausübung sehr leicht über den Stoff gleitet. Die Wäsche wird durch den Dampf leicht feucht, und so lassen sich die Knitter einfacher glätten.",
+         "dimension":"12x20x12 cm",
+         "gewicht":"1500 g",
+         "kleinteil":"nein",
+         "kaution":"5.00",
+         "kosten":"2.00",
+         "kategorien":[
+            1,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00087",
+         "bezeichnung":"Christbaumständer",
+         "bilder":[
+            "IN00087.jpg"
+         ],
+         "beschreibung":"Ein Weihnachtsbaumständer (auch: Christbaumständer) ist ein Gegenstand zur Stabilisierung eines Weihnachtsbaums während seiner Verwendung als selbststehender Dekorationsbaum.",
+         "dimension":"15x35x35 cm",
+         "gewicht":"10 kg",
+         "kleinteil":"nein",
+         "kaution":"5.00",
+         "kosten":"2.00",
+         "kategorien":[
+            10,
+            1,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00088",
+         "bezeichnung":"Staubsauger",
+         "bilder":[
+            "IN00088.jpg"
+         ],
+         "beschreibung":"Bodenstaubsauger, 1000 W",
+         "dimension":"ca. 90 cm hoch",
+         "gewicht":"5 kg",
+         "kleinteil":"nein",
+         "kaution":"5.00",
+         "kosten":"2.00",
+         "kategorien":[
+            1,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00089",
+         "bezeichnung":"Rasenmäher, elektrisch",
+         "bilder":[
+            "IN00089.jpg"
+         ],
+         "beschreibung":"Der elektrische Rasenmäher eignet sich für mittelgroße Rasenflächen. Durch den Radantrieb wird das Rasenmähen wesentlich leichter. Bitte beachten Sie Nutzungshinweise: bei fehlerhafter Anwendung besteht erhebliche Verletzungsgefahr.",
+         "dimension":"100x50x50 cm",
+         "gewicht":"35 kg",
+         "kleinteil":"nein",
+         "kaution":"50.00",
+         "kosten":"2.00",
+         "kategorien":[
+            6,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00090",
+         "bezeichnung":"Fliesenschneidemaschine",
+         "bilder":[
+            "IN00090.jpg"
+         ],
+         "beschreibung":"Fliesenschneidemaschine, elektrisch",
+         "dimension":"25x50x50 cm",
+         "gewicht":"15 kg",
+         "kleinteil":"nein",
+         "kaution":"50.00",
+         "kosten":"2.00",
+         "kategorien":[
+            7,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00091",
+         "bezeichnung":"Gartenpumpe",
+         "bilder":[
+            "IN00091.jpg"
+         ],
+         "beschreibung":"Mit der Gartenpumpe können sie Wasser aus Teich oder Zisterne abpumpen und beispielsweise zur Bewässerung ihrer Gartenpflanzen verwenden. Über den Saugschlauch wird das Wasser angesaugt und kann dann mit einem Standard Gartenschlauch verteilt werden. ",
+         "dimension":"40x30x30 cm",
+         "gewicht":"10 kg",
+         "kleinteil":"nein",
+         "kaution":"20.00",
+         "kosten":"2.00",
+         "kategorien":[
+            6,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00093",
+         "bezeichnung":"Abflammgerät",
+         "bilder":[
+            "IN00093.jpg"
+         ],
+         "beschreibung":"Das Abflammgerät kann das lästige Unkrautjäten im Garten erleichern. Nach dem Zünden flämmt man das Unkraut ab. Üblicherweise wird das Abflammgerät mit einem Gasgemisch aus Propan und Butan betrieben. Natürlich muss das Gerät mit Vorsicht bedient werden. Beachten Sie, dass die Hitze auch auf Ihre Terassenplatten einwirkt.",
+         "dimension":"ca. 70 cm hoch",
+         "gewicht":"10 kg",
+         "kleinteil":"nein",
+         "kaution":"5.00",
+         "kosten":"2.00",
+         "kategorien":[
+            7,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00092",
+         "bezeichnung":"Lötbeil",
+         "bilder":[
+            "IN00092.jpg"
+         ],
+         "beschreibung":"Vorsatz zum Abflämmen und Erhitzen, etwa zum Verschweißen von Bitumenbahnen (Dachpappe).",
+         "dimension":"ca. 50 cm lang",
+         "gewicht":"7 kg",
+         "kleinteil":"nein",
+         "kaution":"5.00",
+         "kosten":"2.00",
+         "kategorien":[
+            7,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00093",
+         "bezeichnung":"Lötpistole für Reparaturen u. Bastelarbeiten, Tiffany",
+         "bilder":[
+            "IN00093.jpg"
+         ],
+         "beschreibung":"Die Lötpistole ist ein handliches Werkzeug für schnelle Reparaturen und für Bastelarbeiten. Durch die Form liegt es gut in der Hand, es verfügt über eine kurze Aufwärmzeit. Nur mit gedrücktem Taster arbeitet die Pistole; andernfalls bleibt sie kalt.",
+         "dimension":"ca. 50 cm lang",
+         "gewicht":"7 kg",
+         "kleinteil":"nein",
+         "kaution":"5.00",
+         "kosten":"2.00",
+         "kategorien":[
+            7,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00094",
+         "bezeichnung":"Akkuhandstaubsauger für Möbel und Auto",
+         "bilder":[
+            "IN00094.jpg"
+         ],
+         "beschreibung":"Akkuhandstaubsauger für Möbel und Auto",
+         "dimension":"70 cm Höhe",
+         "gewicht":"2500 g",
+         "kleinteil":"nein",
+         "kaution":"20.00",
+         "kosten":"2.00",
+         "kategorien":[
+            7,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00095",
+         "bezeichnung":"Yogamatte für Yoga und Entspannung",
+         "bilder":[
+            "IN00095.jpg"
+         ],
+         "beschreibung":"Yogamatten sind spezielle Matten, auf denen Yoga praktiziert wird. Sie sind rutschfester als normale Gymnastikmatten. Bitte achten Sie vor der Rückgabe auf eine gründliche Reinigung.",
+         "dimension":"60x200 cm",
+         "gewicht":"2 kg",
+         "kleinteil":"nein",
+         "kaution":"5.00",
+         "kosten":"2.00",
+         "kategorien":[
+            2,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00096",
+         "bezeichnung":"Yogamatte für Yoga und Entspannung",
+         "bilder":[
+            "IN00096.jpg"
+         ],
+         "beschreibung":"Yogamatten sind spezielle Matten, auf denen Yoga praktiziert wird. Sie sind rutschfester als normale Gymnastikmatten. Bitte achten Sie vor der Rückgabe auf eine gründliche Reinigung.",
+         "dimension":"60x200 cm",
+         "gewicht":"2 kg",
+         "kleinteil":"nein",
+         "kaution":"5.00",
+         "kosten":"2.00",
+         "kategorien":[
+            2,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00097",
+         "bezeichnung":"Yogamatte für Yoga und Entspannung",
+         "bilder":[
+            "IN00097.jpg"
+         ],
+         "beschreibung":"Yogamatten sind spezielle Matten, auf denen Yoga praktiziert wird. Sie sind rutschfester als normale Gymnastikmatten. Bitte achten Sie vor der Rückgabe auf eine gründliche Reinigung.",
+         "dimension":"60x200 cm",
+         "gewicht":"2 kg",
+         "kleinteil":"nein",
+         "kaution":"5.00",
+         "kosten":"2.00",
+         "kategorien":[
+            2,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00098",
+         "bezeichnung":"Yogamatte für Yoga und Entspannung",
+         "bilder":[
+            "IN00098.jpg"
+         ],
+         "beschreibung":"Yogamatten sind spezielle Matten, auf denen Yoga praktiziert wird. Sie sind rutschfester als normale Gymnastikmatten. Bitte achten Sie vor der Rückgabe auf eine gründliche Reinigung.",
+         "dimension":"60x200 cm",
+         "gewicht":"2 kg",
+         "kleinteil":"nein",
+         "kaution":"5.00",
+         "kosten":"2.00",
+         "kategorien":[
+            2,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00099",
+         "bezeichnung":"Yogamatte für Yoga und Entspannung",
+         "bilder":[
+            "IN00099.jpg"
+         ],
+         "beschreibung":"Yogamatten sind spezielle Matten, auf denen Yoga praktiziert wird. Sie sind rutschfester als normale Gymnastikmatten. Bitte achten Sie vor der Rückgabe auf eine gründliche Reinigung.",
+         "dimension":"60x200 cm",
+         "gewicht":"2 kg",
+         "kleinteil":"nein",
+         "kaution":"5.00",
+         "kosten":"2.00",
+         "kategorien":[
+            2,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00100",
+         "bezeichnung":"Gästebett- als Zusatzbett einzusetzen",
+         "bilder":[
+            "IN00100.jpg"
+         ],
+         "beschreibung":"Aufklappbares Zusatzbett für eine Person. Das Bett verfügt über eine Matratze. Für die Nutzung verwenden Sie einen passenden Bettbezug und Bettzeug. Bitte achten Sie vor der Rückgabe auf eine gründliche Reinigung.",
+         "dimension":"90x180 cm",
+         "gewicht":"15 kg",
+         "kleinteil":"nein",
+         "kaution":"20.00",
+         "kosten":"2.00",
+         "kategorien":[
+            1,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00101",
+         "bezeichnung":"Dialeinwand weiß",
+         "bilder":[
+            "IN00101.jpg"
+         ],
+         "beschreibung":"Eine Projektionsleinwand für den Diaprojektor oder den Beamer. Durch die hohe Reflektion bietet die Leinwand ein gute Bildqualität.",
+         "dimension":"150 cm breit",
+         "gewicht":"10 kg",
+         "kleinteil":"nein",
+         "kaution":"20.00",
+         "kosten":"2.00",
+         "kategorien":[
+            5,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00102",
+         "bezeichnung":"Dialeinwand silbergrau",
+         "bilder":[
+            "IN00102.jpg"
+         ],
+         "beschreibung":"Eine Projektionsleinwand für den Diaprojektor oder den Beamer. Durch die hohe Reflektion bietet die Leinwand ein gute Bildqualität.",
+         "dimension":"150 cm breit",
+         "gewicht":"10 kg",
+         "kleinteil":"nein",
+         "kaution":"20.00",
+         "kosten":"2.00",
+         "kategorien":[
+            5,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00103",
+         "bezeichnung":"Baumwollhängematte mit Befestigung",
+         "bilder":[
+            "/data/bilder/dummyFotos/leerstelle_produkt.png",
+            "IN00103.jpg"
+         ],
+         "beschreibung":"Entspannen im Garten: die Baumwollhängematte macht es möglich.",
+         "dimension":"unbekannt",
+         "gewicht":"unbekannt",
+         "kleinteil":"nein",
+         "kaution":"50.00",
+         "kosten":"2.00",
+         "kategorien":[
+            2,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00104",
+         "bezeichnung":"Bollerwagen aus Holz",
+         "bilder":[
+            "IN00104.jpg"
+         ],
+         "beschreibung":"Ein Ausflug mit Kindern in den Wald, eine Wanderung mit Freunden oder ein Picknick mit der Familie: mit dem Bollerwagen transportieren Sie problemlos alles was Sie für einen schönen Tag benötigen.",
+         "dimension":"unbekannt",
+         "gewicht":"unbekannt",
+         "kleinteil":"nein",
+         "kaution":"50.00",
+         "kosten":"2.00",
+         "kategorien":[
+            2,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00105",
+         "bezeichnung":"Dampfreiniger mit viel Zubehör",
+         "bilder":[
+            "IN00105.jpg"
+         ],
+         "beschreibung":"Der Dampfreiniger verdampft Wasser und gibt es über eine Düse ab. Damit lassen sich Flächen effektiv reinigen. Bitte beachten Sie die Nutzungshinweise: Wasserdampf ist deutlich über 100 Grad Celsius heiss. Es besteht also Verletzungsgefahr.",
+         "dimension":"unbekannt",
+         "gewicht":"unbekannt",
+         "kleinteil":"nein",
+         "kaution":"50.00",
+         "kosten":"2.00",
+         "kategorien":[
+            1,
+            7,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00106",
+         "bezeichnung":"Tapetenablösegerät mit Dampf",
+         "bilder":[
+            "IN00106.jpg"
+         ],
+         "beschreibung":"Die Renovierung einer Wohnung beginnt oft mit der Entfernung der alten Tapete. Hier hilft das Tapetenablösegerät. Es erzeugt Wasserdampf, der die alte Tapete aufweicht, und so das Abkratzen der Reste deutlich vereinfacht. Auch bei diesem Gerät achten Sie bitte auf die Nutzungshinweise: Wasserdampf ist deutlich über 100 Grad Celsius heiss. Es besteht also Verletzungsgefahr.",
+         "dimension":"unbekannt",
+         "gewicht":"3000 g",
+         "kleinteil":"nein",
+         "kaution":"20.00",
+         "kosten":"2.00",
+         "kategorien":[
+            7,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00107",
+         "bezeichnung":"Saft- und Gemüsepresse",
+         "bilder":[
+            "IN00107.jpg"
+         ],
+         "beschreibung":"Entsafter stehen für einen gesunden Lifestyle und eine ausgewogene Ernährung. Ob Obst, Gemüse oder grüne Blätter: Mit einer Saftpresse können Sie im Handumdrehen wohlschmeckende und nahrhafte Säfte zaubern, die eine hervorragende Alternative zum industriell hergestellten Saft darstellen.",
+         "dimension":"25x20x20 cm",
+         "gewicht":"4 kg",
+         "kleinteil":"nein",
+         "kaution":"20.00",
+         "kosten":"2.00",
+         "kategorien":[
+            1,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00109",
+         "bezeichnung":"Laubsauger u.-bläser ;100 dB; 2500 Watt",
+         "bilder":[
+            "IN00109.jpg"
+         ],
+         "beschreibung":"Mit dem elektrisch betriebenen Laubsauger/Laubbläser entfernen Sie schnell und einfach Laub und Schmutz im Aussenbereich. Bitte beachten Sie: 100 dB ist sehr laut. Verwenden Sie beim Arbeiten mit dem Gerät unbedingt einen Gehörschutz. Alternativ lässt sich das Laub auch mit einem Rechen auflesen, der Schmutz mit einem Besen entfernen",
+         "dimension":"unbekannt",
+         "gewicht":"unbekannt",
+         "kleinteil":"nein",
+         "kaution":"50.00",
+         "kosten":"2.00",
+         "kategorien":[
+            6,
+            7,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00110",
+         "bezeichnung":"Handrasenmäher \"Wolf\"",
+         "bilder":[
+            "IN00110.jpg"
+         ],
+         "beschreibung":"Schnittbreite 28 cm, Der Handrasenmäher mit Spindelmessertechnik erlaubt einen akkuraten und sauberen Schnitt, da die die Grashalme zuerst erfasst und dann abgeschnitten werden. Der Mäher ist für Rasenhöhen bis zu 10 cm geeignet.",
+         "dimension":"30x100x30 cm",
+         "gewicht":"10 kg",
+         "kleinteil":"nein",
+         "kaution":"20.00",
+         "kosten":"2.00",
+         "kategorien":[
+            6,
+            7,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00111",
+         "bezeichnung":"Streuwagen",
+         "bilder":[
+            "IN00111.jpg"
+         ],
+         "beschreibung":"Mit dem Streuwagen für den Garten säen Sie gleichmäßig Saatgut (beispielsweise Rasensamen) oder verteilen Kunstdünger. Sie können die abgegebene Menge dosieren.",
+         "dimension":"Breite: 50 cm",
+         "gewicht":"unbekannt",
+         "kleinteil":"nein",
+         "kaution":"20.00",
+         "kosten":"2.00",
+         "kategorien":[
+            6,
+            7,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00112",
+         "bezeichnung":"Rasentrimmer; 220 Volt",
+         "bilder":[
+            "IN00112.jpg"
+         ],
+         "beschreibung":"Mit dem Rasentrimmer schneiden Sie die Rasenkanten, die Sie mit dem Rasenmäher nicht erreichen. Das Gerät schneidet das Gras mit einem schnell drehenden Kunststofffaden. ",
+         "dimension":"ca. 110 cm Höhe",
+         "gewicht":"4000 g",
+         "kleinteil":"nein",
+         "kaution":"20.00",
+         "kosten":"2.00",
+         "kategorien":[
+            6,
+            7,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00113",
+         "bezeichnung":"Domino; Holzlegespiel",
+         "bilder":[
+            "IN00113.jpg"
+         ],
+         "beschreibung":"Beim Domino wird abwechselnd ein Stein an einen weiteren angelegt. Die Augenzahlen müssen dabei an den angrenzenden Seiten stets gleich sein. Durch seitliches Anlegen an einen andern Stein erschaffen Sie neue Pfade. An diese können Sie dann weiter anlegen.",
+         "dimension":"5x30x7 cm",
+         "gewicht":"500 g",
+         "kleinteil":"ja",
+         "kaution":"5.00",
+         "kosten":"0.40",
+         "kategorien":[
+            4,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00114",
+         "bezeichnung":"Snowboard mit Schuhen Gr. 44 1/2",
+         "bilder":[
+            "IN00114.jpg"
+         ],
+         "beschreibung":"Der nächste Winter kommt bestimmt (hoffentlich): mit dem Snowboard ab in die Rhön oder auf den Hoherodskopf. Probieren Sie es einfach mal aus. Macht wirklich Spass. Und die hessischen Mittelgebirge sind ideal für Anfänger.",
+         "dimension":"ca 130 cm Länge",
+         "gewicht":"3000 g",
+         "kleinteil":"nein",
+         "kaution":"50.00",
+         "kosten":"2.00",
+         "kategorien":[
+            2,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00115",
+         "bezeichnung":"Reisekoffer mit Rollen",
+         "bilder":[
+            "IN00115.jpg"
+         ],
+         "beschreibung":"Irgendwann ist Corona besiegt und dann kann der nächste Kurzurlaub kommen. Der Kapazität des Reisekoffers reicht für ein paar Tage. Und die Rollen erleichtern die Nutzung in den endlosen Korridoren moderner Flughäfen und Bahnhöfe.",
+         "dimension":"90x50x30 cm",
+         "gewicht":"unbekannt",
+         "kleinteil":"nein",
+         "kaution":"20.00",
+         "kosten":"2.00",
+         "kategorien":[
+            2,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00116",
+         "bezeichnung":"Kindersitz; Rückenlehne abnehmbar",
+         "bilder":[
+            "IN00116.jpg"
+         ],
+         "beschreibung":"Der Kindersitz sichert ihre Kinder im Auto. Er wird auf der Rückbank Ihres Autos mit den Gurten fixiert. Eine entsprechende Sicherung der Kinder ist in Deutschland gesetzlich vorgeschrieben.",
+         "dimension":"unbekannt",
+         "gewicht":"unbekannt",
+         "kleinteil":"nein",
+         "kaution":"20.00",
+         "kosten":"2.00",
+         "kategorien":[
+            3,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00117",
+         "bezeichnung":"Gong mit Holzständer",
+         "bilder":[
+            "IN00117.jpg"
+         ],
+         "beschreibung":"Wenn die Kinder mal wieder nicht zum Essen kommen wollen: ein dezenter Hinweis mit dem Gong erreicht Sie auch auf dem nahegelegenen Spielplatz.",
+         "dimension":"50 cm Durchmesser",
+         "gewicht":"unbekannt",
+         "kleinteil":"nein",
+         "kaution":"50.00",
+         "kosten":"2.00",
+         "kategorien":[
+            2,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00118",
+         "bezeichnung":"Lichterschlauch mit wechselndem Farbenspiel",
+         "bilder":[
+            "IN00118.jpg"
+         ],
+         "beschreibung":"Farbenfrohe Dekoration für Ihre nächste Party.",
+         "dimension":"unbekannt",
+         "gewicht":"unbekannt",
+         "kleinteil":"nein",
+         "kaution":"20.00",
+         "kosten":"2.00",
+         "kategorien":[
+            2,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00119",
+         "bezeichnung":"Mobile Massagebank",
+         "bilder":[
+            "IN00119.jpg"
+         ],
+         "beschreibung":"Die mobile Massagebank kann schnell, einfach und sicher aufgebaut werden. Bitte achten Sie vor der Rückgabe auf eine gründliche Reinigung.",
+         "dimension":"60x200x75 cm",
+         "gewicht":"unbekannt",
+         "kleinteil":"nein",
+         "kaution":"50.00",
+         "kosten":"2.00",
+         "kategorien":[
+            2,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00120",
+         "bezeichnung":"Djembe afrikanische Trommel",
+         "bilder":[
+            "IN00120.jpg"
+         ],
+         "beschreibung":"Die Djembe ist eine einfellige Bechertrommel aus Westafrika, deren Korpus aus einem ausgehöhlten Baumstamm besteht.",
+         "dimension":"ca. 60x40 cm",
+         "gewicht":"4 kg",
+         "kleinteil":"nein",
+         "kaution":"50.00",
+         "kosten":"2.00",
+         "kategorien":[
+            2,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00121",
+         "bezeichnung":"Nackenmassagekissen mit Klangkulisse",
+         "bilder":[
+            "IN00121.jpg"
+         ],
+         "beschreibung":"Das Nackenmassagegerät kann bei Verspannungen im Halswirbelbereich helfen. Die Klangkulisse vertieft die Entspannungsphase. ",
+         "dimension":"20x20x20 cm",
+         "gewicht":"2000 g",
+         "kleinteil":"nein",
+         "kaution":"20.00",
+         "kosten":"2.00",
+         "kategorien":[
+            2,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00122",
+         "bezeichnung":"Elektr. Maleisen mit Wachsstiften",
+         "bilder":[
+            "IN00122.jpg"
+         ],
+         "beschreibung":"Die Enkaustik ist eine bekannte Maltechnik, bei der Wachsfarben heiss auf den Maluntergrund aufgebracht werden. Mit dem Maleisen können Sie diese Technik ausprobieren, vielleicht gemeinsam mit Ihren Kindern, sie werden es lieben. Beachten Sie die Nutzungshinweise: das Maleisen wird warm.",
+         "dimension":"20x20x20 cm",
+         "gewicht":"3000 g",
+         "kleinteil":"nein",
+         "kaution":"20.00",
+         "kosten":"2.00",
+         "kategorien":[
+            2,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00123",
+         "bezeichnung":"Langlaufski",
+         "bilder":[
+            "IN00123.jpg"
+         ],
+         "beschreibung":"Der nächste Winter kommt bestimmt (hoffentlich): mit den Langlaufski ab in die Loipen in der Rhön oder auf dem Hoherodskopf. Probieren Sie es einfach mal aus. Macht wirklich Spass. Und die hessischen Mittelgebirge sind ideal für Anfänger.",
+         "dimension":"Länge 180 cm",
+         "gewicht":"unbekannt",
+         "kleinteil":"nein",
+         "kaution":"50.00",
+         "kosten":"2.00",
+         "kategorien":[
+            2,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00124",
+         "bezeichnung":"Abfahrtski \"Völkl\"",
+         "bilder":[
+            "IN00124.jpg"
+         ],
+         "beschreibung":"Der nächste Winter kommt bestimmt (hoffentlich): mit den Abfahrtski ab auf die Pisten in der Rhön oder auf dem Hoherodskopf. Probieren Sie es einfach mal aus. Macht wirklich Spass. Und die hessischen Mittelgebirge sind ideal für Anfänger.",
+         "dimension":"Länge 168 cm",
+         "gewicht":"unbekannt",
+         "kleinteil":"nein",
+         "kaution":"50.00",
+         "kosten":"2.00",
+         "kategorien":[
+            2,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00125",
+         "bezeichnung":"Abfahrtski \"Atomic\"",
+         "bilder":[
+            "IN00125.jpg"
+         ],
+         "beschreibung":"Der nächste Winter kommt bestimmt (hoffentlich): mit den Abfahrtski ab auf die Pisten in der Rhön oder auf dem Hoherodskopf. Probieren Sie es einfach mal aus. Macht wirklich Spass. Und die hessischen Mittelgebirge sind ideal für Anfänger.",
+         "dimension":"Länge 180 cm",
+         "gewicht":"unbekannt",
+         "kleinteil":"nein",
+         "kaution":"50.00",
+         "kosten":"2.00",
+         "kategorien":[
+            2,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00126",
+         "bezeichnung":"Langlaufski",
+         "bilder":[
+            "IN00126.jpg"
+         ],
+         "beschreibung":"Der nächste Winter kommt bestimmt (hoffentlich): mit den Abfahrtski ab in die Loipen in der Rhön oder auf dem Hoherodskopf. Probieren Sie es einfach mal aus. Macht wirklich Spass. Und die hessischen Mittelgebirge sind ideal für Anfänger.",
+         "dimension":"Länge 190 cm",
+         "gewicht":"unbekannt",
+         "kleinteil":"nein",
+         "kaution":"50.00",
+         "kosten":"2.00",
+         "kategorien":[
+            2,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00127",
+         "bezeichnung":"Abfahrtski",
+         "bilder":[
+            "IN00127.jpg"
+         ],
+         "beschreibung":"Der nächste Winter kommt bestimmt (hoffentlich): mit den Abfahrtski ab auf die Pisten in der Rhön oder auf dem Hoherodskopf. Probieren Sie es einfach mal aus. Macht wirklich Spass. Und die hessischen Mittelgebirge sind ideal für Anfänger.",
+         "dimension":"Länge 130 cm",
+         "gewicht":"unbekannt",
+         "kleinteil":"nein",
+         "kaution":"50.00",
+         "kosten":"2.00",
+         "kategorien":[
+            2,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00128",
+         "bezeichnung":"Langlaufski \"TRAK\"",
+         "bilder":[
+            "IN00128.jpg"
+         ],
+         "beschreibung":"Der nächste Winter kommt bestimmt (hoffentlich): mit den Abfahrtski ab in die Loipen in der Rhön oder auf dem Hoherodskopf. Probieren Sie es einfach mal aus. Macht wirklich Spass. Und die hessischen Mittelgebirge sind ideal für Anfänger.",
+         "dimension":"Länge 190 cm",
+         "gewicht":"unbekannt",
+         "kleinteil":"nein",
+         "kaution":"50.00",
+         "kosten":"2.00",
+         "kategorien":[
+            2,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00130",
+         "bezeichnung":"Langlaufski \"Fischer\"",
+         "bilder":[
+            "IN00130.jpg"
+         ],
+         "beschreibung":"Der nächste Winter kommt bestimmt (hoffentlich): mit den Abfahrtski ab in die Loipen in der Rhön oder auf dem Hoherodskopf. Probieren Sie es einfach mal aus. Macht wirklich Spass. Und die hessischen Mittelgebirge sind ideal für Anfänger.",
+         "dimension":"Länge 200 cm",
+         "gewicht":"unbekannt",
+         "kleinteil":"nein",
+         "kaution":"5.00",
+         "kosten":"2.00",
+         "kategorien":[
+            2,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00131",
+         "bezeichnung":"Notenständer aus Metall",
+         "bilder":[
+            "IN00131.jpg"
+         ],
+         "beschreibung":"Für das nächste Blockflötenkonzert: der Notenständer hält die Notenblätter. Auch nützlich bei Vorträgen und Gesangseinlagen. Mit etwas Übung schaffen Sie es auch, ihn richtig aufzubauen.",
+         "dimension":"unbekannt",
+         "gewicht":"unbekannt",
+         "kleinteil":"nein",
+         "kaution":"20.00",
+         "kosten":"2.00",
+         "kategorien":[
+            2,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00132",
+         "bezeichnung":"Corsaro: Irrfahrt im Piratenmeer",
+         "bilder":[
+            "IN00132.jpg"
+         ],
+         "beschreibung":"Corsaro: Irrfahrt im Piratenmeer ist ein kooperatives Brettspiel für Kinder. Das Spiel für zwei bis vier Spieler ab vier Jahren dauert etwa 20 Minuten pro Runde. Als Schiffbrüchiger besitzt jeder Spieler ein Boot in einer Farbe und muß versuchen, von der einsamen Insel aus den Hafen von \"Santaijana\" zu erreichen. Der \"Schwarze Pirat\" jagt mit zwei Piratenschiffen hinter den Booten her, um sie zu fangen.",
+         "dimension":"39x28x4 cm ",
+         "gewicht":"662 g",
+         "kleinteil":"ja",
+         "kaution":"5.00",
+         "kosten":"0.40",
+         "kategorien":[
+            4,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00133",
+         "bezeichnung":"Fliesenschneidemaschine",
+         "bilder":[
+            "IN00133.jpg"
+         ],
+         "beschreibung":"Mit der elekrischen Fliesenschneidemaschine trennen Sie die Fliesen präzise und schnell. Beachten Sie die Sicherheitshinweise.",
+         "dimension":"Schnittbreite 32 cm",
+         "gewicht":"unbekannt",
+         "kleinteil":"nein",
+         "kaution":"50.00",
+         "kosten":"2.00",
+         "kategorien":[
+            7,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00134",
+         "bezeichnung":"Mech. Kehrmaschine Fa. Kärcher",
+         "bilder":[
+            "IN00134.jpg"
+         ],
+         "beschreibung":"Mit der mechanischen Kehrmaschine reinigen Sie ihren Aussenbereich  schnell und einfach.",
+         "dimension":"Breite 50 cm",
+         "gewicht":"unbekannt",
+         "kleinteil":"nein",
+         "kaution":"50.00",
+         "kosten":"2.00",
+         "kategorien":[
+            7,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00135",
+         "bezeichnung":"Reparaturset für Fahrrad 5 Teile",
+         "bilder":[
+            "IN00135.jpg"
+         ],
+         "beschreibung":"Bei der nächsten Radtour sollten Sie dieses Reparaturset dabeihaben. Das Set hilft Ihnen bei der Reparatur Ihres Fahrrades. Die Schlüssel passen auf eine Vielzahl von Muttern, mit den Kunststoffhaken lässt sich der Mantel von der Felge lösen.",
+         "dimension":"unbekannt",
+         "gewicht":"unbekannt",
+         "kleinteil":"nein",
+         "kaution":"5.00",
+         "kosten":"2.00",
+         "kategorien":[
+            7,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00136",
+         "bezeichnung":"Heissklebepistole, klein",
+         "bilder":[
+            "IN00136.jpg"
+         ],
+         "beschreibung":"Mit der Heissklebepistole verbinden Sie unterschiedliche Materialien: Papier, Pappe, Kunststoff oder Holz. Der Klebstoff (oft in Form von kleinen Klebstoffstangen) wird im Gerät erhitzt, damit weicher und kann so auf die Verbindungsstelle aufgebracht werden. Nach dem Abkühlen entsteht eine feste Verbindung der Werkstoffe. Bitte beachten Sie die Nutzungshinweise.",
+         "dimension":"unbekannt",
+         "gewicht":"unbekannt",
+         "kleinteil":"nein",
+         "kaution":"5.00",
+         "kosten":"2.00",
+         "kategorien":[
+            7,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00137",
+         "bezeichnung":"Käsereibe",
+         "bilder":[
+            "IN00137.jpg"
+         ],
+         "beschreibung":"Handliche Käsereibe, insbesondere für Hartkäse, wie Parmesan, geeignet. Bitte achten Sie vor der Rückgabe auf eine gründliche Reinigung.",
+         "dimension":"unbekannt",
+         "gewicht":"unbekannt",
+         "kleinteil":"nein",
+         "kaution":"5.00",
+         "kosten":"2.00",
+         "kategorien":[
+            1,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00138",
+         "bezeichnung":"Linoleumset mit 12 Teilen",
+         "bilder":[
+            "IN00138.jpg"
+         ],
+         "beschreibung":"Linoleumschnitzen ist eine beliebte Drucktechnik. Mit den Schnitzmessern lässt sich das weiche Linoleum bearbeiten. Es entsteht ein Negativbild, dass dann gleichmässig mit Farbe bestrichen wird. Anschliessend kann ein Abdrcuk auf Papier erfolgen. Werden Sie kreativ und gestalten Sie Ihre eigenen Drucke.",
+         "dimension":"unbekannt",
+         "gewicht":"unbekannt",
+         "kleinteil":"nein",
+         "kaution":"5.00",
+         "kosten":"2.00",
+         "kategorien":[
+            2,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00139",
+         "bezeichnung":"Laubsäge für Sperrholz",
+         "bilder":[
+            "IN00139.jpg"
+         ],
+         "beschreibung":"Mit der Laubsäge lassen sich beliebige Formen aus dünnen Holzbretchen sägen. Ein kreativer Spass für kleine und grosse Künstler.",
+         "dimension":"unbekannt",
+         "gewicht":"unbekannt",
+         "kleinteil":"nein",
+         "kaution":"5.00",
+         "kosten":"2.00",
+         "kategorien":[
+            2,
+            7,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00154",
+         "bezeichnung":"Aqua Vac Dampfreiniger",
+         "bilder":[
+            "/IN00154.jpg"
+         ],
+         "beschreibung":"Dampfreiniger zum Ablösen von Tapeten und zum Reinigen von Fliesen.",
+         "dimension":"unbekannt",
+         "gewicht":"unbekannt",
+         "kleinteil":"nein",
+         "kaution":"10.00",
+         "kosten":"2.00",
+         "kategorien":[
+            7,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00155",
+         "bezeichnung":"Gardena 750 ja",
+         "bilder":[
+            "IN00155.jpg"
+         ],
+         "beschreibung":"Transport von Heizöl ???",
+         "dimension":"unbekannt",
+         "gewicht":"unbekannt",
+         "kleinteil":"nein",
+         "kaution":"20.00",
+         "kosten":"2.00",
+         "kategorien":[
+            7,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00156",
+         "bezeichnung":"KUBB Wikingerspiel",
+         "bilder":[
+            "IN00156.jpg"
+         ],
+         "beschreibung":"Das ultimative Outdoorwurfspiel für die ganze Familie.",
+         "dimension":"unbekannt",
+         "gewicht":"unbekannt",
+         "kleinteil":"nein",
+         "kaution":"10.00",
+         "kosten":"2.00",
+         "kategorien":[
+            7,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00157",
+         "bezeichnung":"Laubsuager mit Fangsack",
+         "bilder":[
+            "IN00157.jpg"
+         ],
+         "beschreibung":"Mit dem elektrischen Laubsauger mit Fangsack werden Laub und Blätter aufgesaugt. 112 Db.",
+         "dimension":"unbekannt",
+         "gewicht":"unbekannt",
+         "kleinteil":"nein",
+         "kaution":"50.00",
+         "kosten":"2.00",
+         "kategorien":[
+            7,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00159",
+         "bezeichnung":"Heckenschere, Akku",
+         "bilder":[
+            "IN00159.jpg"
+         ],
+         "beschreibung":"Die Heckenschere mit Akku. Schnittbreite 52 mm und Schnittlänge 52 cm",
+         "dimension":"unbekannt",
+         "gewicht":"unbekannt",
+         "kleinteil":"nein",
+         "kaution":"30.00",
+         "kosten":"2.00",
+         "kategorien":[
+            7,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00160",
+         "bezeichnung":"Crepes Maker",
+         "bilder":[
+            "IN00160.jpg"
+         ],
+         "beschreibung":"Der Crepes Maker ist ausgelegt für die Zubereichung von Crepes in allen Varianten.",
+         "dimension":"unbekannt",
+         "gewicht":"unbekannt",
+         "kleinteil":"nein",
+         "kaution":"5.00",
+         "kosten":"2.00",
+         "kategorien":[
+            7,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00161",
+         "bezeichnung":"Multifunktionswerkzeug",
+         "bilder":[
+            "IN00161.jpg"
+         ],
+         "beschreibung":"Das Multifunktionswerkzeug für Ihr Hobby. Diese kleine Maschine ist geeignet für Feinbohren, Schleifen, Polieren und Anderes.",
+         "dimension":"unbekannt",
+         "gewicht":"unbekannt",
+         "kleinteil":"nein",
+         "kaution":"10.00",
+         "kosten":"2.00",
+         "kategorien":[
+            7,
+            0
+         ]
+      },
+      {
+         "inventarnummer":"IN00158",
+         "bezeichnung":"Rasen- und Kantentrimmer, Akku",
+         "bilder":[
+            "IN00158.jpg"
+         ],
+         "beschreibung":"Ist gut geeignet, um Rasenkanten zu schneiden. Auch Pflanzen lassen sich gut in Form bringen. Hat 89 Dezibel.",
+         "dimension":"unbekannt",
+         "gewicht":"unbekannt",
+         "kleinteil":"nein",
+         "kaution":"a0.00",
+         "kosten":"2.00",
+         "kategorien":[
+            7,
+            0
+         ]
+      }
+   ]
+}
