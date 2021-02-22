@@ -8,10 +8,16 @@ class KachelGridWidget extends StatelessWidget {
   Color _cellColor;
   Widget _screen;
 
+  // Content Widgets
+  List<Widget> cells = [];
+  int _count = 0;
+
   KachelGridWidget(
-      this._width, this._cellSize, this._zeilen, this._spalten, this._screen) {
+      this._width, this._cellSize, this._zeilen, this._spalten, this._screen,
+      {this.cells = null}) {
     // todo tabellen berechnung einfügen
     _width += (16 * _spalten);
+    _count = 0;
   }
 
   @override
@@ -22,6 +28,7 @@ class KachelGridWidget extends StatelessWidget {
 
   Table _createTable(context) {
     List<TableRow> zeilen = [];
+    _count = 0;
     for (int i = 0; i < _zeilen; i++) {
       zeilen.add(_createTableRow(context));
     }
@@ -34,6 +41,7 @@ class KachelGridWidget extends StatelessWidget {
     List<TableCell> spalten = [];
     for (int i = 0; i < _spalten; i++) {
       spalten.add(_createTableCell(context));
+      _count++;
     }
     return TableRow(
       children: spalten,
@@ -42,7 +50,13 @@ class KachelGridWidget extends StatelessWidget {
 
   TableCell _createTableCell(context) {
     return TableCell(
-      child: Padding(
+      child: _createCell(context),
+    );
+  }
+
+  Padding _createCell(context) {
+    if (cells == null) {
+      return Padding(
         padding: const EdgeInsets.all(8.0),
         child: GestureDetector(
           onTap: () {
@@ -55,7 +69,9 @@ class KachelGridWidget extends StatelessWidget {
               width: _cellSize,
               child: Placeholder()),
         ),
-      ),
-    );
+      );
+    } else {
+      return cells[_count];
+    }
   }
 }
