@@ -26,6 +26,8 @@ class MitmachenScreen extends StatelessWidget {
         "Neuigkeiten",
         cellColor,
         cellSize,
+        marginFactor: 0.1,
+        scaleFactor: 0.5,
       ),
       KachelGridWidget.buildCell(
         context,
@@ -34,6 +36,8 @@ class MitmachenScreen extends StatelessWidget {
         "Wunschliste",
         cellColor,
         cellSize,
+        marginFactor: 0.1,
+        scaleFactor: 0.5,
       ),
       KachelGridWidget.buildCell(
         context,
@@ -42,6 +46,8 @@ class MitmachenScreen extends StatelessWidget {
         "Vorschläge",
         cellColor,
         cellSize,
+        marginFactor: 0.1,
+        scaleFactor: 0.5,
       ),
       KachelGridWidget.buildCell(
         context,
@@ -50,6 +56,8 @@ class MitmachenScreen extends StatelessWidget {
         "Fragen",
         cellColor,
         cellSize,
+        marginFactor: 0.1,
+        scaleFactor: 0.5,
       ),
     ];
 

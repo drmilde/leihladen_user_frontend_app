@@ -8,9 +8,13 @@ class InfotextWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      child: Text(_infoText, style: TextStyle(
-        fontSize: 14,
-      ), textAlign: TextAlign.justify,),
+      child: Text(
+        _infoText,
+        style: TextStyle(
+          //fontSize: 15,
+        ),
+        textAlign: TextAlign.justify,
+      ),
     );
   }
 }
