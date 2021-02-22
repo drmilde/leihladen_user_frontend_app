@@ -22,6 +22,11 @@ class _BottomNavigationBarWidgetState extends State<BottomNavigationBarWidget> {
     return BottomNavigationBar(
       type: BottomNavigationBarType.fixed,
       currentIndex: widget._currentIndex,
+      selectedIconTheme: IconThemeData(
+        color: Theme.of(context).primaryColorDark,
+        size: 30,
+      ),
+      selectedItemColor: Theme.of(context).primaryColorDark,
       onTap: (int index) {
         setState(() {
           widget._currentIndex = index;

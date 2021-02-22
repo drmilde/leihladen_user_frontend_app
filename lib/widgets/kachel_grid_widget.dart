@@ -23,7 +23,10 @@ class KachelGridWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     _cellColor = Theme.of(context).primaryColor;
-    return _createTable(context);
+    return Container(
+      width: _width,
+      child: _createTable(context),
+    );
   }
 
   Table _createTable(context) {
@@ -73,5 +76,49 @@ class KachelGridWidget extends StatelessWidget {
     } else {
       return cells[_count];
     }
+  }
+
+  static Widget buildCell(BuildContext context, Widget screen, String asset,
+      String text, Color cellColor, double cellSize, {double marginFactor = 0.07, double scaleFactor = 0.6}) {
+    return Padding(
+      padding: const EdgeInsets.all(8.0),
+      child: GestureDetector(
+        onTap: () {
+          Navigator.push(
+              context, MaterialPageRoute(builder: (context) => screen));
+        },
+        child: Container(
+            color: cellColor,
+            height: cellSize,
+            width: cellSize,
+            child: Stack(
+              children: [
+                Positioned(
+                  top: cellSize * marginFactor,
+                  left: cellSize * (1.0 - scaleFactor) / 2,
+                  child: Container(
+                    width: cellSize * scaleFactor,
+                    child: Image.asset(asset),
+                  ),
+                ),
+                Positioned(
+                  bottom: cellSize * marginFactor,
+                  child: Container(
+                    width: cellSize,
+                    child: Text(
+                      text,
+                      style: TextStyle(
+                        fontSize: 15,
+                        fontWeight: FontWeight.bold,
+                        color: Colors.white,
+                      ),
+                      textAlign: TextAlign.center,
+                    ),
+                  ),
+                ),
+              ],
+            )),
+      ),
+    );
   }
 }
