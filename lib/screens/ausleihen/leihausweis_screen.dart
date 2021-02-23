@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:leihladen_user_frontend_app/screens/ausleihen/qr_code_screen.dart';
 
 class LeihausweisScreen extends StatefulWidget {
   @override
@@ -9,13 +10,10 @@ class _LeihausweisScreenState extends State<LeihausweisScreen> {
   String UDID = "Ihre Ausweisnummer";
 
   TextEditingController _controllerName = TextEditingController();
-
   TextEditingController _controllerVorname = TextEditingController();
-
   TextEditingController _controllerAdresse = TextEditingController();
-
   TextEditingController _controllerEmail = TextEditingController();
-
+  TextEditingController _controllerGeburtsjahr = TextEditingController();
   TextEditingController _controllerPasswort = TextEditingController();
 
   @override
@@ -31,7 +29,13 @@ class _LeihausweisScreenState extends State<LeihausweisScreen> {
           ),
           IconButton(
             icon: Icon(Icons.qr_code),
-            onPressed: () {},
+            onPressed: () {
+              Navigator.of(context).push(
+                MaterialPageRoute(
+                  builder: (context) => QrCodeScreen(_createJson()),
+                ),
+              );
+            },
           ),
         ],
       ),
@@ -113,6 +117,20 @@ class _LeihausweisScreenState extends State<LeihausweisScreen> {
                 Padding(
                   padding: const EdgeInsets.all(8.0),
                   child: TextFormField(
+                    onChanged: (value) {
+                      _updateUdid();
+                    },
+                    controller: _controllerGeburtsjahr,
+                    keyboardType: TextInputType.text,
+                    decoration: InputDecoration(
+                      labelText: 'Geburtsjahr',
+                      border: OutlineInputBorder(),
+                    ),
+                  ),
+                ),
+                Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: TextFormField(
                     controller: _controllerPasswort,
                     onChanged: (value) {
                       _updateUdid();
@@ -142,9 +160,10 @@ class _LeihausweisScreenState extends State<LeihausweisScreen> {
     String vorname = _controllerVorname.text.trim();
     String adresse = _controllerAdresse.text.trim();
     String email = _controllerEmail.text.trim();
+    String geburtsjahr = _controllerGeburtsjahr.text.trim();
     String passwort = _controllerPasswort.text.trim();
     setState(() {
-      UDID = "${name}:${vorname}:${adresse}:${email}:${passwort}";
+      UDID = "${name}:${vorname}:${adresse}:${email}:${geburtsjahr}:${passwort}";
     });
   }
 
@@ -153,6 +172,7 @@ class _LeihausweisScreenState extends State<LeihausweisScreen> {
     String vorname = _controllerVorname.text.trim();
     String adresse = _controllerAdresse.text.trim();
     String email = _controllerEmail.text.trim();
+    String geburtsjahr = _controllerGeburtsjahr.text.trim();
     String passwort = _controllerPasswort.text.trim();
 
     if (name.isEmpty) {
@@ -171,6 +191,10 @@ class _LeihausweisScreenState extends State<LeihausweisScreen> {
       showMessage("Bitte geben Sie eine email ein");
       return;
     }
+    if (geburtsjahr.isEmpty) {
+      showMessage("Bitte geben Sie Ihr Geburtsjahr ein");
+      return;
+    }
     if (passwort.isEmpty) {
       showMessage("Bitte geben Sie ein Passwort ein");
       return;
@@ -186,5 +210,25 @@ class _LeihausweisScreenState extends State<LeihausweisScreen> {
 
   void _saveData() {
     //TODO Leihausweis speichern
+  }
+
+  String _createJson() {
+    //_updateUdid();
+    String name = _controllerName.text.trim();
+    String vorname = _controllerVorname.text.trim();
+    String adresse = _controllerAdresse.text.trim();
+    String email = _controllerEmail.text.trim();
+    String geburtsjahr = _controllerGeburtsjahr.text.trim();
+    String passwort = _controllerPasswort.text.trim();
+    UDID = "${name}:${vorname}:${adresse}:${email}:${geburtsjahr}:${passwort}";
+
+    return ("{\n"
+        "\t\"nachname\":\"${name}\",\n"
+        "\t\"vorname\":\"${vorname}\",\n"
+        "\t\"adresse\":\"${adresse}\",\n"
+        "\t\"mobile\":\"${email}\",\n"
+        "\t\"geburtsjahr\":\"${geburtsjahr}\",\n"
+        "\t\"udid\":\"${UDID.hashCode}\"\n"
+        "}");
   }
 }
