@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class CircularIconButtonWidget extends StatelessWidget {
   Icon icon;
-  VoidCallback callback;
+  var callback; // eigentlih VoidCallback
   double size;
   String asset;
 
@@ -10,7 +10,7 @@ class CircularIconButtonWidget extends StatelessWidget {
       {@required this.icon,
       @required this.callback,
       this.size = 36,
-      this.asset = null});
+      this.asset = ""});
 
   @override
   Widget build(BuildContext context) {
@@ -18,7 +18,7 @@ class CircularIconButtonWidget extends StatelessWidget {
   }
 
   ClipOval _buildCircleButton(BuildContext context,
-      {@required Icon icon, @required VoidCallback callback}) {
+      {@required Icon icon, @required var callback}) {
     if (icon != null) {
       return ClipOval(
         child: Material(
