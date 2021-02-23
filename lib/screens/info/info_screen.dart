@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/painting.dart';
 import 'package:leihladen_user_frontend_app/widgets/circular_icon_button_widget.dart';
 
 class InfoScreen extends StatelessWidget {
@@ -22,9 +23,15 @@ class InfoScreen extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.start,
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text(
-                        "Adresse, Kontakt & Anfahrt",
-                        textAlign: TextAlign.center,
+                      Center(
+                        child: Text(
+                          "Adresse, Kontakt & Anfahrt",
+                          textAlign: TextAlign.center,
+                          style: TextStyle(
+                            fontSize: 16,
+                            fontWeight: FontWeight.bold,
+                          ),
+                        ),
                       ),
                       SizedBox(
                         height: 10,
@@ -51,65 +58,97 @@ class InfoScreen extends StatelessWidget {
                             "Telefon: +49 1573 725 8582"
                             "\nemail: leihladenfulda@gmail.com",
                           ),
-                          CircularIconButtonWidget(icon: Icon(Icons.call), callback: null)
+                          CircularIconButtonWidget(
+                              icon: Icon(Icons.call), callback: null)
                         ],
                       ),
                       SizedBox(
                         height: 10,
                       ),
-                      Text("Anfahrt: "
-                          "Das Bürgerzentrum Fulda-Ziehers-Süd liegt im Stadtgebiet"
-                          " Ziehers-Süd in der Nähe der B27."
-                          " Nehmen sie die "
-                          " Abfahrt \"Petersberger Straße\", "
-                          "dann in die \"Dr. Dietz-Straße\" und dann"
-                          " in die \"Dingelstedtstraße\"."),
+                      Text(
+                        "Anfahrt: "
+                        "Das Bürgerzentrum Fulda-Ziehers-Süd liegt im Stadtgebiet"
+                        " Ziehers-Süd in der Nähe der B27."
+                        " Nehmen sie die "
+                        " Abfahrt \"Petersberger Straße\", "
+                        "dann in die \"Dr. Dietz-Straße\" und dann"
+                        " in die \"Dingelstedtstraße\".",
+                        textAlign: TextAlign.justify,
+                      ),
+                      SizedBox(
+                        height: 10,
+                      ),
+                      Center(
+                        child: Text(
+                          "Öffnungszeiten",
+                          textAlign: TextAlign.center,
+                          style: TextStyle(
+                            fontSize: 16,
+                            fontWeight: FontWeight.bold,
+                          ),
+                        ),
+                      ),
                       SizedBox(
                         height: 10,
                       ),
                       Text(
-                        "Öffnungszeiten",
-                        textAlign: TextAlign.center,
+                        "Aufgrund der Corona-Pandemie gelten im Bürgerzentrum die aktuellen"
+                        " Hygenie-bestimmungen."
+                        " Sie erreichen uns telefonisch."
+                        " Der Leihladen Fulda wird am 4.9.2020"
+                        " seine Arbeit aufnehmen, und ist dann jeden",
+                        textAlign: TextAlign.justify,
+                      ),
+                      SizedBox(
+                        height: 10,
+                      ),
+                      Center(
+                        child: Text(
+                          "Freitag,"
+                          " zwischen 16.00 und 17.30 Uhr",
+                          style: TextStyle(
+                            color: Colors.red,
+                            fontSize: 16,
+                          ),
+                        ),
                       ),
                       SizedBox(
                         height: 10,
                       ),
                       Text(
-                          "Aufgrund der Corona-Pandemie gelten im Bürgerzentrum die aktuellen"
-                          " Hygenie-bestimmungen."
-                          " Sie erreichen uns telefonisch."
-                          " Der Leihladen Fulda wird am 4.9.2020"
-                          " seine Arbeit aufnehmen, und ist dann jeden"),
+                        "für Sie geöffnet."
+                        " Reservierungen sind über die App natürlich jederzeit möglich.",
+                        textAlign: TextAlign.justify,
+                      ),
                       SizedBox(
                         height: 10,
                       ),
-                      Text("Freitag"
-                          " zwischen 16.00 und 17.30 Uhr"),
-                      SizedBox(
-                        height: 10,
+                      Center(
+                        child: Text(
+                          "Bauliche Situation",
+                          textAlign: TextAlign.center,
+                          style: TextStyle(
+                            fontSize: 16,
+                            fontWeight: FontWeight.bold,
+                          ),
+                        ),
                       ),
-                      Text("für Sie geöffnet."
-                          " Reservierungen sind über die App natürlich jederzeit möglich."),
                       SizedBox(
                         height: 10,
                       ),
                       Text(
-                        "Bauliche Situation",
-                        textAlign: TextAlign.center,
+                        "Das Bürgerzentrum Ziehers Süd wurde aufwändig zu einer"
+                        " Multifunktionshalle umgebaut"
+                        " und im Jahre 2019 eröffnet. Es eignet sich sowohl"
+                        " für größere Veranstaltungen von bis zu 540 Personen"
+                        " (unbestuhlt), als auch für Familienfeiern jeglicher"
+                        " Art für bis zu 180 Personen (mit Tischen und Stühlen)."
+                        " Der Bühnenraum ist separat nutzbar."
+                        " Des weiteren steht ein kleiner Gruppenraum"
+                        " (20 Personen) mit Teeküche zur Verfügung."
+                        " Das Zentrum ist barrierefrei konzipiert:",
+                        textAlign: TextAlign.justify,
                       ),
-                      SizedBox(
-                        height: 10,
-                      ),
-                      Text("Das Bürgerzentrum Ziehers Süd wurde aufwändig zu einer"
-                          " Multifunktionshalle umgebaut"
-                          " und im Jahre 2019 eröffnet. Es eignet sich sowohl"
-                          " für größere Veranstaltungen von bis zu 540 Personen"
-                          " (unbestuhlt), als auch für Familienfeiern jeglicher"
-                          " Art für bis zu 180 Personen (mit Tischen und Stühlen)."
-                          " Der Bühnenraum ist separat nutzbar."
-                          " Des weiteren steht ein kleiner Gruppenraum"
-                          " (20 Personen) mit Teeküche zur Verfügung."
-                          " Das Zentrum ist barrierefrei konzipiert:"),
                       SizedBox(
                         height: 10,
                       ),

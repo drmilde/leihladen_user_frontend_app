@@ -19,13 +19,35 @@ class QrCodeScreen extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               SizedBox(
-                height: 32,
+                height: 2,
               ),
-              Container(
-                child: Text(data),
+              Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Text(
+                  "Übertragene Daten im QRCode: ",
+                  style: TextStyle(
+                    fontSize: 16,
+                  ),
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Container(
+                  child: Container(
+                    width: double.infinity,
+                    color: Theme.of(context).bottomAppBarColor,
+                    child: Text(
+                      data,
+                      style: TextStyle(
+                        fontFamily: "Courier",
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                  ),
+                ),
               ),
               SizedBox(
-                height: 32,
+                height: 8,
               ),
               Expanded(
                 child: SingleChildScrollView(
