@@ -11,8 +11,11 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
+
   @override
   Widget build(BuildContext context) {
+    DataModel.loadStore();
+
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Die Leihladen App',

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:leihladen_user_frontend_app/model/data_model.dart';
 import 'package:leihladen_user_frontend_app/screens/ausleihen/entliehen_screen.dart';
 import 'package:leihladen_user_frontend_app/screens/ausleihen/leihausweis_screen.dart';
 import 'package:leihladen_user_frontend_app/screens/ausleihen/reservierung_screen.dart';
@@ -11,6 +12,19 @@ import 'package:leihladen_user_frontend_app/widgets/app_drawer_entry_widget.dart
 class AppDrawerWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    String nachname = "Kein";
+    String vorname = "Leihausweis";
+    String adresse = "Leihladen Fulda";
+    if (DataModel.store.leihausweis.nachname.length > 0) {
+      nachname = "${DataModel.store.leihausweis.nachname}";
+    }
+    if (DataModel.store.leihausweis.vorname.length > 0) {
+      vorname = "${DataModel.store.leihausweis.vorname}";
+    }
+    if (DataModel.store.leihausweis.adresse.length > 0) {
+      adresse = "${DataModel.store.leihausweis.adresse}";
+    }
+
     return SafeArea(
       child: Drawer(
           child: GestureDetector(
@@ -21,15 +35,18 @@ class AppDrawerWidget extends StatelessWidget {
           children: [
             GestureDetector(
               onTap: () {
-                Navigator.push(context, MaterialPageRoute(builder: (context) => LeihausweisScreen()));
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) => LeihausweisScreen()));
               },
               child: UserAccountsDrawerHeader(
-                accountName: Text("Jan-Torsten Milde"),
-                accountEmail: Text("Lauterbach"),
+                accountName: Text("${nachname} ${vorname}"),
+                accountEmail: Text("${adresse}"),
                 currentAccountPicture: CircleAvatar(
                   backgroundColor: Theme.of(context).accentColor,
                   child: Text(
-                    "JT",
+                    "${vorname[0]}${nachname[0]}",
                     style: TextStyle(fontSize: 40.0),
                   ),
                 ),

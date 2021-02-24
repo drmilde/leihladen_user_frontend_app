@@ -38,12 +38,25 @@ class _LeihausweisScreenState extends State<LeihausweisScreen> {
   }
 
   @override
+  void dispose() {
+    // TODO: implement dispose
+    super.dispose();
+
+    transmitData();
+    _saveData();
+  }
+
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         title: Text("Leihausweis"),
         centerTitle: false,
         actions: [
+          IconButton(
+            icon: Icon(Icons.clear),
+            onPressed: _clearForm,
+          ),
           IconButton(
             icon: Icon(Icons.check),
             onPressed: _validateForm,
@@ -61,119 +74,125 @@ class _LeihausweisScreenState extends State<LeihausweisScreen> {
           ),
         ],
       ),
-      body: SingleChildScrollView(
-        child: Container(
-          child: Form(
-            child: Column(
-              children: [
-                Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: Text(
-                    "Füllen Sie bitte das Formular aus und erstellen Sie so Ihren digitalen Leihausweis."
-                    " Mit dem digitalen Leihausweis weisen Sie sich vor Ort im Leihladen aus."
-                    " Ihre Daten werden *NICHT* übertragen und ausschliesslich auf Ihrem Handy gespeichert."
-                    " Wir haben keinen Zugriff auf Ihrer personenbezogenen Daten."
-                    "\n\nIhre Ausweisnummer: ${UDID.hashCode}",
-                    textAlign: TextAlign.justify,
-                  ),
-                ),
-                SizedBox(
-                  height: 16,
-                ),
-                Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: TextFormField(
-                    onChanged: (value) {
-                      _updateUdid();
-                    },
-                    controller: _controllerNachname,
-                    keyboardType: TextInputType.text,
-                    decoration: InputDecoration(
-                      labelText: 'Nachname',
-                      border: OutlineInputBorder(),
-                    ),
-                  ),
-                ),
-                Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: TextFormField(
-                    onChanged: (value) {
-                      _updateUdid();
-                    },
-                    controller: _controllerVorname,
-                    keyboardType: TextInputType.text,
-                    decoration: InputDecoration(
-                      labelText: 'Vorname',
-                      border: OutlineInputBorder(),
-                    ),
-                  ),
-                ),
-                Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: TextFormField(
-                    onChanged: (value) {
-                      _updateUdid();
-                    },
-                    controller: _controllerAdresse,
-                    keyboardType: TextInputType.text,
-                    decoration: InputDecoration(
-                      labelText: 'Adresse',
-                      border: OutlineInputBorder(),
-                    ),
-                  ),
-                ),
-                Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: TextFormField(
-                    onChanged: (value) {
-                      _updateUdid();
-                    },
-                    controller: _controllerMobile,
-                    keyboardType: TextInputType.emailAddress,
-                    decoration: InputDecoration(
-                      hintText: "Wie erreichen wir Sie?",
-                      labelText: 'Telefon/E-mail',
-                      border: OutlineInputBorder(),
-                    ),
-                  ),
-                ),
-                Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: TextFormField(
-                    onChanged: (value) {
-                      _updateUdid();
-                    },
-                    controller: _controllerGeburtsjahr,
-                    keyboardType: TextInputType.text,
-                    decoration: InputDecoration(
-                      labelText: 'Geburtsjahr',
-                      border: OutlineInputBorder(),
-                    ),
-                  ),
-                ),
-                Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: TextFormField(
-                    controller: _controllerPasswort,
-                    onChanged: (value) {
-                      _updateUdid();
-                    },
-                    obscureText: true,
-                    keyboardType: TextInputType.text,
-                    decoration: InputDecoration(
-                      hintText: "Wählen Sie ein beliebiges Passwort.",
-                      labelText: 'Passwort',
-                      border: OutlineInputBorder(),
-                    ),
-                  ),
-                ),
-                SizedBox(
-                  height: 16,
-                ),
-              ],
+      body: Column(
+        children: [
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Text(
+              "Füllen Sie bitte das Formular aus und erstellen Sie so Ihren digitalen Leihausweis."
+              " Mit dem digitalen Leihausweis weisen Sie sich vor Ort im Leihladen aus."
+              " Ihre Daten werden *NICHT* übertragen und ausschliesslich auf Ihrem Handy gespeichert."
+              " Wir haben keinen Zugriff auf Ihrer personenbezogenen Daten."
+              "\n\nIhre Ausweisnummer: ${UDID.hashCode}",
+              textAlign: TextAlign.justify,
             ),
           ),
-        ),
+          SizedBox(
+            height: 16,
+          ),
+          Expanded(
+            child: SingleChildScrollView(
+              child: Container(
+                child: Form(
+                  child: Column(
+                    children: [
+                      Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: TextFormField(
+                          onChanged: (value) {
+                            _updateUdid();
+                          },
+                          controller: _controllerNachname,
+                          keyboardType: TextInputType.text,
+                          decoration: InputDecoration(
+                            labelText: 'Nachname',
+                            border: OutlineInputBorder(),
+                          ),
+                        ),
+                      ),
+                      Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: TextFormField(
+                          onChanged: (value) {
+                            _updateUdid();
+                          },
+                          controller: _controllerVorname,
+                          keyboardType: TextInputType.text,
+                          decoration: InputDecoration(
+                            labelText: 'Vorname',
+                            border: OutlineInputBorder(),
+                          ),
+                        ),
+                      ),
+                      Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: TextFormField(
+                          onChanged: (value) {
+                            _updateUdid();
+                          },
+                          controller: _controllerAdresse,
+                          keyboardType: TextInputType.text,
+                          decoration: InputDecoration(
+                            labelText: 'Adresse',
+                            border: OutlineInputBorder(),
+                          ),
+                        ),
+                      ),
+                      Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: TextFormField(
+                          onChanged: (value) {
+                            _updateUdid();
+                          },
+                          controller: _controllerMobile,
+                          keyboardType: TextInputType.emailAddress,
+                          decoration: InputDecoration(
+                            hintText: "Wie erreichen wir Sie?",
+                            labelText: 'Telefon/E-mail',
+                            border: OutlineInputBorder(),
+                          ),
+                        ),
+                      ),
+                      Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: TextFormField(
+                          onChanged: (value) {
+                            _updateUdid();
+                          },
+                          controller: _controllerGeburtsjahr,
+                          keyboardType: TextInputType.text,
+                          decoration: InputDecoration(
+                            labelText: 'Geburtsjahr',
+                            border: OutlineInputBorder(),
+                          ),
+                        ),
+                      ),
+                      Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: TextFormField(
+                          controller: _controllerPasswort,
+                          onChanged: (value) {
+                            _updateUdid();
+                          },
+                          obscureText: true,
+                          keyboardType: TextInputType.text,
+                          decoration: InputDecoration(
+                            hintText: "Wählen Sie ein beliebiges Passwort.",
+                            labelText: 'Passwort',
+                            border: OutlineInputBorder(),
+                          ),
+                        ),
+                      ),
+                      SizedBox(
+                        height: 16,
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+            ),
+          ),
+        ],
       ),
     );
   }
@@ -190,6 +209,16 @@ class _LeihausweisScreenState extends State<LeihausweisScreen> {
 
     // update UI
     setState(() {});
+  }
+
+  void _clearForm() {
+    _controllerNachname.clear();
+    _controllerVorname.clear();
+    _controllerAdresse.clear();
+    _controllerMobile.clear();
+    _controllerGeburtsjahr.clear();
+    _controllerPasswort.clear();
+    _updateUdid();
   }
 
   void _validateForm() {
@@ -244,8 +273,7 @@ class _LeihausweisScreenState extends State<LeihausweisScreen> {
     DataModel.store.leihausweis.mobile = _controllerMobile.text.trim();
     DataModel.store.leihausweis.geburtsjahr =
         _controllerGeburtsjahr.text.trim();
-    DataModel.store.leihausweis.passwort =
-        _controllerPasswort.text.trim();
+    DataModel.store.leihausweis.passwort = _controllerPasswort.text.trim();
     DataModel.store.leihausweis.udid = "${UDID.hashCode}";
   }
 

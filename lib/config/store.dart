@@ -108,6 +108,9 @@ class Warenkorb {
       };
 
   void addData(String inventarnummer) {
+    if (data.contains(inventarnummer)) {
+      return;
+    }
     data.add(inventarnummer);
   }
 
