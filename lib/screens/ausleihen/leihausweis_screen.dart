@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:leihladen_user_frontend_app/config/persistence.dart';
+import 'package:leihladen_user_frontend_app/config/store.dart';
+import 'package:leihladen_user_frontend_app/model/data_model.dart';
 import 'package:leihladen_user_frontend_app/screens/ausleihen/qr_code_screen.dart';
 
 class LeihausweisScreen extends StatefulWidget {
@@ -9,12 +12,30 @@ class LeihausweisScreen extends StatefulWidget {
 class _LeihausweisScreenState extends State<LeihausweisScreen> {
   String UDID = "Ihre Ausweisnummer";
 
-  TextEditingController _controllerName = TextEditingController();
+  TextEditingController _controllerNachname = TextEditingController();
   TextEditingController _controllerVorname = TextEditingController();
   TextEditingController _controllerAdresse = TextEditingController();
-  TextEditingController _controllerEmail = TextEditingController();
+  TextEditingController _controllerMobile = TextEditingController();
   TextEditingController _controllerGeburtsjahr = TextEditingController();
   TextEditingController _controllerPasswort = TextEditingController();
+
+  @override
+  void initState() {
+    // TODO: implement initState
+    super.initState();
+    Persistence.load().then((String result) {
+      if (result != "") {
+        DataModel.store = storeFromJson(result);
+        Leihausweis ausweis = DataModel.store.leihausweis;
+        _controllerNachname.text = ausweis.nachname;
+        _controllerVorname.text = ausweis.vorname;
+        _controllerAdresse.text = ausweis.adresse;
+        _controllerMobile.text = ausweis.mobile;
+        _controllerGeburtsjahr.text = ausweis.geburtsjahr;
+        _controllerPasswort.text = ausweis.passwort;
+      }
+    });
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -30,9 +51,10 @@ class _LeihausweisScreenState extends State<LeihausweisScreen> {
           IconButton(
             icon: Icon(Icons.qr_code),
             onPressed: () {
+              _updateUdid();
               Navigator.of(context).push(
                 MaterialPageRoute(
-                  builder: (context) => QrCodeScreen(_createJson()),
+                  builder: (context) => QrCodeScreen(_createJsonObscured()),
                 ),
               );
             },
@@ -64,10 +86,10 @@ class _LeihausweisScreenState extends State<LeihausweisScreen> {
                     onChanged: (value) {
                       _updateUdid();
                     },
-                    controller: _controllerName,
+                    controller: _controllerNachname,
                     keyboardType: TextInputType.text,
                     decoration: InputDecoration(
-                      labelText: 'Name',
+                      labelText: 'Nachname',
                       border: OutlineInputBorder(),
                     ),
                   ),
@@ -106,10 +128,11 @@ class _LeihausweisScreenState extends State<LeihausweisScreen> {
                     onChanged: (value) {
                       _updateUdid();
                     },
-                    controller: _controllerEmail,
+                    controller: _controllerMobile,
                     keyboardType: TextInputType.emailAddress,
                     decoration: InputDecoration(
-                      labelText: 'E-mail',
+                      hintText: "Wie erreichen wir Sie?",
+                      labelText: 'Telefon/E-mail',
                       border: OutlineInputBorder(),
                     ),
                   ),
@@ -156,22 +179,24 @@ class _LeihausweisScreenState extends State<LeihausweisScreen> {
   }
 
   void _updateUdid() {
-    String name = _controllerName.text.trim();
+    String name = _controllerNachname.text.trim();
     String vorname = _controllerVorname.text.trim();
     String adresse = _controllerAdresse.text.trim();
-    String email = _controllerEmail.text.trim();
+    String email = _controllerMobile.text.trim();
     String geburtsjahr = _controllerGeburtsjahr.text.trim();
     String passwort = _controllerPasswort.text.trim();
-    setState(() {
-      UDID = "${name}:${vorname}:${adresse}:${email}:${geburtsjahr}:${passwort}";
-    });
+    UDID = "${name}:${vorname}:${adresse}:${email}:${geburtsjahr}:${passwort}";
+    transmitData();
+
+    // update UI
+    setState(() {});
   }
 
   void _validateForm() {
-    String name = _controllerName.text.trim();
+    String name = _controllerNachname.text.trim();
     String vorname = _controllerVorname.text.trim();
     String adresse = _controllerAdresse.text.trim();
-    String email = _controllerEmail.text.trim();
+    String email = _controllerMobile.text.trim();
     String geburtsjahr = _controllerGeburtsjahr.text.trim();
     String passwort = _controllerPasswort.text.trim();
 
@@ -209,26 +234,23 @@ class _LeihausweisScreenState extends State<LeihausweisScreen> {
   }
 
   void _saveData() {
-    //TODO Leihausweis speichern
+    Persistence.store(storeToJson(DataModel.store));
   }
 
-  String _createJson() {
-    //_updateUdid();
-    String name = _controllerName.text.trim();
-    String vorname = _controllerVorname.text.trim();
-    String adresse = _controllerAdresse.text.trim();
-    String email = _controllerEmail.text.trim();
-    String geburtsjahr = _controllerGeburtsjahr.text.trim();
-    String passwort = _controllerPasswort.text.trim();
-    UDID = "${name}:${vorname}:${adresse}:${email}:${geburtsjahr}:${passwort}";
+  void transmitData() {
+    DataModel.store.leihausweis.nachname = _controllerNachname.text.trim();
+    DataModel.store.leihausweis.vorname = _controllerVorname.text.trim();
+    DataModel.store.leihausweis.adresse = _controllerAdresse.text.trim();
+    DataModel.store.leihausweis.mobile = _controllerMobile.text.trim();
+    DataModel.store.leihausweis.geburtsjahr =
+        _controllerGeburtsjahr.text.trim();
+    DataModel.store.leihausweis.passwort =
+        _controllerPasswort.text.trim();
+    DataModel.store.leihausweis.udid = "${UDID.hashCode}";
+  }
 
-    return ("{\n"
-        "\t\"nachname\":\"${name}\",\n"
-        "\t\"vorname\":\"${vorname}\",\n"
-        "\t\"adresse\":\"${adresse}\",\n"
-        "\t\"mobile\":\"${email}\",\n"
-        "\t\"geburtsjahr\":\"${geburtsjahr}\",\n"
-        "\t\"udid\":\"${UDID.hashCode}\"\n"
-        "}");
+  String _createJsonObscured() {
+    transmitData();
+    return leihausweisToJsonObscured(DataModel.store.leihausweis);
   }
 }
