@@ -18,4 +18,8 @@ class DataModel {
       store = storeFromJson(result);
     });
   }
+
+  static void saveStore() {
+    Persistence.store(storeToJson(store));
+  }
 }

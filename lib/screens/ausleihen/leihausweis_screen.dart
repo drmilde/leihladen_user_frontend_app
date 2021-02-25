@@ -25,18 +25,15 @@ class _LeihausweisScreenState extends State<LeihausweisScreen> {
   void initState() {
     // TODO: implement initState
     super.initState();
-    Persistence.load().then((String result) {
-      if (result != "") {
-        DataModel.store = storeFromJson(result);
-        Leihausweis ausweis = DataModel.store.leihausweis;
-        _controllerNachname.text = ausweis.nachname;
-        _controllerVorname.text = ausweis.vorname;
-        _controllerAdresse.text = ausweis.adresse;
-        _controllerMobile.text = ausweis.mobile;
-        _controllerGeburtsjahr.text = ausweis.geburtsjahr;
-        _controllerPasswort.text = ausweis.passwort;
-      }
-    });
+
+    DataModel.loadStore();
+    Leihausweis ausweis = DataModel.store.leihausweis;
+    _controllerNachname.text = ausweis.nachname;
+    _controllerVorname.text = ausweis.vorname;
+    _controllerAdresse.text = ausweis.adresse;
+    _controllerMobile.text = ausweis.mobile;
+    _controllerGeburtsjahr.text = ausweis.geburtsjahr;
+    _controllerPasswort.text = ausweis.passwort;
 
     // reset to position 0
     // TODO reset to position 0
@@ -275,7 +272,7 @@ class _LeihausweisScreenState extends State<LeihausweisScreen> {
   }
 
   void _saveData() {
-    Persistence.store(storeToJson(DataModel.store));
+    DataModel.saveStore();
   }
 
   void transmitData() {

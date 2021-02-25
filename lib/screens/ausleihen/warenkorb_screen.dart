@@ -1,15 +1,54 @@
+import 'dart:math';
+
 import 'package:flutter/material.dart';
 import 'package:leihladen_user_frontend_app/model/data_model.dart';
 import 'package:leihladen_user_frontend_app/model/katalog.dart';
 import 'package:leihladen_user_frontend_app/widgets/circular_icon_button_widget.dart';
 import 'package:leihladen_user_frontend_app/widgets/product_card_widget.dart';
 
-class WarenkorbScreen extends StatelessWidget {
+class WarenkorbScreen extends StatefulWidget {
+  @override
+  _WarenkorbScreenState createState() => _WarenkorbScreenState();
+}
+
+class _WarenkorbScreenState extends State<WarenkorbScreen> {
+  @override
+  void initState() {
+    // TODO: implement initState
+    super.initState();
+    //DataModel.loadStore();
+  }
+
+  @override
+  void dispose() {
+    // TODO: implement dispose
+    super.dispose();
+
+    _saveData();
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         title: Text("Warenkorb"),
+        actions: [
+          IconButton(
+            icon: Icon(Icons.clear),
+            onPressed: () {
+              DataModel.store.warenkorb.clearData();
+              setState(() {
+                // redraw
+              });
+            },
+          ),
+          IconButton(
+            icon: Icon(Icons.save),
+            onPressed: () {
+              _saveData();
+            },
+          ),
+        ],
       ),
       body: Column(
         children: [
@@ -65,9 +104,20 @@ class WarenkorbScreen extends StatelessWidget {
                               DataModel.store.warenkorb.data[index];
                           Eintrag e = katalog
                               .getEintrayByInventarnummer(inventarnummer);
-                          return ProductCardWidget(
-                            e,
-                            showButton: false,
+                          return Dismissible(
+                            background: _backgroundDelete(),
+                            key: Key(e.inventarnummer +
+                                Random.secure().nextInt(10000000).toString()),
+                            onDismissed: (direction) {
+                              setState(() {
+                                DataModel.store.warenkorb
+                                    .removeData(e.inventarnummer);
+                              });
+                            },
+                            child: ProductCardWidget(
+                              e,
+                              showButton: false,
+                            ),
                           );
                         },
                       )),
@@ -92,5 +142,28 @@ class WarenkorbScreen extends StatelessWidget {
         ],
       ),
     );
+  }
+
+  Container _backgroundDelete() {
+    return Container(
+                            color: Colors.red,
+                            child: Center(child: Row(
+                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                              children: [
+                                Padding(
+                                  padding: const EdgeInsets.all(8.0),
+                                  child: Text("löschen", style: TextStyle(fontSize: 20, color: Colors.white)),
+                                ),
+                                Padding(
+                                  padding: const EdgeInsets.all(8.0),
+                                  child: Text("löschen", style: TextStyle(fontSize: 20, color: Colors.white)),
+                                ),
+                              ],
+                            ))
+                          );
+  }
+
+  void _saveData() {
+    DataModel.saveStore();
   }
 }

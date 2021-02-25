@@ -4,14 +4,22 @@
 
 import 'dart:convert';
 
+import 'package:leihladen_user_frontend_app/model/katalog.dart';
+
 Store storeFromJson(String str) => Store.fromJson(json.decode(str));
+
 String storeToJson(Store data) => json.encode(data.toJson());
 
-Leihausweis leihausweisFromJson(String str) => Leihausweis.fromJson(json.decode(str));
+Leihausweis leihausweisFromJson(String str) =>
+    Leihausweis.fromJson(json.decode(str));
+
 String leihausweisToJson(Leihausweis data) => json.encode(data.toJson());
-String leihausweisToJsonObscured(Leihausweis data) => json.encode(data.toJsonObscured());
+
+String leihausweisToJsonObscured(Leihausweis data) =>
+    json.encode(data.toJsonObscured());
 
 Warenkorb warenkorbFromJson(String str) => Warenkorb.fromJson(json.decode(str));
+
 String warenkorbToJson(Warenkorb data) => json.encode(data.toJson());
 
 class Store {
@@ -94,7 +102,7 @@ class Leihausweis {
 
 class Warenkorb {
   Warenkorb({
-    this.data = const[],
+    this.data = const [],
   });
 
   List<String> data = const [];
@@ -114,7 +122,11 @@ class Warenkorb {
     data.add(inventarnummer);
   }
 
-  void clearData(String inventarnummer) {
+  void removeData(String inventarnummer) {
+    data.remove(inventarnummer);
+  }
+
+  void clearData() {
     data.clear();
   }
 }
