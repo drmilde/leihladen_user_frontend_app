@@ -64,6 +64,19 @@ class Katalog {
     return data.where((e) => e.kategorien.contains(kat.index)).toList();
   }
 
+  Eintrag getEintrayByInventarnummer (String inventarnummer) {
+    for (Eintrag e in data) {
+      if (e.inventarnummer == inventarnummer) {
+        return e;
+      }
+    }
+    return Eintrag(
+      inventarnummer: inventarnummer,
+      beschreibung: "Eintrag für diese Inventarnummer nicht gefunden,",
+      bezeichnung: "404: Eintrag nicht gefunden."
+    );
+  }
+
 }
 
 class Eintrag {
