@@ -5,6 +5,7 @@ import 'package:leihladen_user_frontend_app/config/store.dart';
 import 'package:leihladen_user_frontend_app/model/data_model.dart';
 import 'package:leihladen_user_frontend_app/model/katalog.dart';
 import 'package:leihladen_user_frontend_app/screens/ausleihen/warenkorb_screen.dart';
+import 'package:leihladen_user_frontend_app/screens/katalog/katalog_detail_screen.dart';
 import 'package:leihladen_user_frontend_app/widgets/circular_icon_button_widget.dart';
 import 'package:leihladen_user_frontend_app/widgets/product_card_widget.dart';
 
@@ -75,7 +76,15 @@ class KatalogScreen extends StatelessWidget {
                   itemBuilder: (context, index) {
                     Eintrag e = liste[index];
                     //return _createContent(context, e);
-                    return ProductCardWidget(e);
+                    return GestureDetector(
+                      onTap: () {
+                        Navigator.of(context).push(MaterialPageRoute(
+                            builder: (context) => KatalogDetailScreen(
+                                  eintrag: e,
+                                )));
+                      },
+                      child: ProductCardWidget(e),
+                    );
                   },
                 )),
               );
