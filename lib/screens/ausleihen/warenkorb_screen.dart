@@ -3,6 +3,7 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:leihladen_user_frontend_app/model/data_model.dart';
 import 'package:leihladen_user_frontend_app/model/katalog.dart';
+import 'package:leihladen_user_frontend_app/screens/ausleihen/reservierung_screen.dart';
 import 'package:leihladen_user_frontend_app/widgets/circular_icon_button_widget.dart';
 import 'package:leihladen_user_frontend_app/widgets/product_card_widget.dart';
 
@@ -48,6 +49,13 @@ class _WarenkorbScreenState extends State<WarenkorbScreen> {
               _saveData();
             },
           ),
+          IconButton(
+              //icon: Icon(Icons.shopping_bag_outlined),
+              icon: ImageIcon(AssetImage("assets/images/symbol/order_symbol.png")),
+              onPressed: () {
+                Navigator.of(context).push(
+                    MaterialPageRoute(builder: (context) => ReservierungScreen()));
+              }),
         ],
       ),
       body: Column(
@@ -146,21 +154,23 @@ class _WarenkorbScreenState extends State<WarenkorbScreen> {
 
   Container _backgroundDelete() {
     return Container(
-                            color: Colors.red,
-                            child: Center(child: Row(
-                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                              children: [
-                                Padding(
-                                  padding: const EdgeInsets.all(8.0),
-                                  child: Text("löschen", style: TextStyle(fontSize: 20, color: Colors.white)),
-                                ),
-                                Padding(
-                                  padding: const EdgeInsets.all(8.0),
-                                  child: Text("löschen", style: TextStyle(fontSize: 20, color: Colors.white)),
-                                ),
-                              ],
-                            ))
-                          );
+        color: Colors.red,
+        child: Center(
+            child: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          children: [
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Text("löschen",
+                  style: TextStyle(fontSize: 20, color: Colors.white)),
+            ),
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Text("löschen",
+                  style: TextStyle(fontSize: 20, color: Colors.white)),
+            ),
+          ],
+        )));
   }
 
   void _saveData() {
