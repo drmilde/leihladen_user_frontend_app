@@ -19,6 +19,8 @@ class _LeihausweisScreenState extends State<LeihausweisScreen> {
   TextEditingController _controllerGeburtsjahr = TextEditingController();
   TextEditingController _controllerPasswort = TextEditingController();
 
+  ScrollController _scrollController;
+
   @override
   void initState() {
     // TODO: implement initState
@@ -35,6 +37,14 @@ class _LeihausweisScreenState extends State<LeihausweisScreen> {
         _controllerPasswort.text = ausweis.passwort;
       }
     });
+
+    // reset to position 0
+    /*
+    if (mounted) {
+      _scrollController.animateTo(_scrollController.position.minScrollExtent,
+          duration: Duration(milliseconds: 10), curve: Curves.ease);
+    }
+     */
   }
 
   @override
@@ -92,6 +102,7 @@ class _LeihausweisScreenState extends State<LeihausweisScreen> {
           ),
           Expanded(
             child: SingleChildScrollView(
+              controller: _scrollController,
               child: Container(
                 child: Form(
                   child: Column(
