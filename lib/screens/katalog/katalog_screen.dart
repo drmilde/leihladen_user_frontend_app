@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:leihladen_user_frontend_app/config/store.dart';
 import 'package:leihladen_user_frontend_app/model/data_model.dart';
 import 'package:leihladen_user_frontend_app/model/katalog.dart';
+import 'package:leihladen_user_frontend_app/screens/ausleihen/warenkorb_screen.dart';
 import 'package:leihladen_user_frontend_app/widgets/circular_icon_button_widget.dart';
 import 'package:leihladen_user_frontend_app/widgets/product_card_widget.dart';
 
@@ -47,6 +48,14 @@ class KatalogScreen extends StatelessWidget {
           "${KategorieNamen[kategorie.index]}",
           textAlign: TextAlign.center,
         ),
+        actions: [
+          IconButton(
+              icon: Icon(Icons.shopping_cart),
+              onPressed: () {
+                Navigator.of(context).push(
+                    MaterialPageRoute(builder: (context) => WarenkorbScreen()));
+              })
+        ],
       ),
       body: FutureBuilder(
           future: getDataFromAsset(kategorie: kategorie),
