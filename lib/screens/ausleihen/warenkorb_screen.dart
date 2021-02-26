@@ -51,10 +51,11 @@ class _WarenkorbScreenState extends State<WarenkorbScreen> {
           ),
           IconButton(
               //icon: Icon(Icons.shopping_bag_outlined),
-              icon: ImageIcon(AssetImage("assets/images/symbol/order_symbol.png")),
+              icon: ImageIcon(
+                  AssetImage("assets/images/symbol/order_symbol.png")),
               onPressed: () {
-                Navigator.of(context).push(
-                    MaterialPageRoute(builder: (context) => ReservierungScreen()));
+                Navigator.of(context).push(MaterialPageRoute(
+                    builder: (context) => ReservierungScreen()));
               }),
         ],
       ),
@@ -70,9 +71,6 @@ class _WarenkorbScreenState extends State<WarenkorbScreen> {
               textAlign: TextAlign.justify,
             ),
           ),
-          SizedBox(
-            height: 16,
-          ),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: [
@@ -82,14 +80,11 @@ class _WarenkorbScreenState extends State<WarenkorbScreen> {
             ],
           ),
           SizedBox(
-            height: 16,
+            height: 8,
           ),
           Divider(
-            height: 10,
+            height: 8,
             thickness: 2,
-          ),
-          SizedBox(
-            height: 16,
           ),
           Expanded(
             child: FutureBuilder(
@@ -134,18 +129,19 @@ class _WarenkorbScreenState extends State<WarenkorbScreen> {
                 }),
           ),
           Divider(
-            height: 10,
+            height: 8,
             thickness: 2,
           ),
-          SizedBox(
-            height: 8,
-          ),
           RaisedButton(
-            child: Text("Reservierung"),
+            color: Theme.of(context).primaryColor,
+            child: Text(
+              "Reservierung",
+              style: TextStyle(color: Colors.white),
+            ),
             onPressed: () {},
           ),
           SizedBox(
-            height: 8,
+            height: 16,
           ),
         ],
       ),

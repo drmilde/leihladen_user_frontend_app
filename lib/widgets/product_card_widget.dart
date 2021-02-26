@@ -9,8 +9,9 @@ import 'circular_icon_button_widget.dart';
 class ProductCardWidget extends StatelessWidget {
   Eintrag eintrag;
   bool showButton;
+  var callback;
 
-  ProductCardWidget(this.eintrag, {this.showButton = true});
+  ProductCardWidget(this.eintrag, {this.showButton = true, this.callback});
 
   @override
   Widget build(BuildContext context) {
@@ -114,9 +115,7 @@ class ProductCardWidget extends StatelessWidget {
             right: 24,
             child: CircularIconButtonWidget(
               icon: Icon(Icons.add_shopping_cart),
-              callback: () {
-                DataModel.store.warenkorb.addData(e.inventarnummer);
-              },
+              callback: callback,
               size: 40,
             ),
           ),

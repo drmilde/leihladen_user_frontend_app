@@ -1,21 +1,24 @@
-import 'dart:math';
 
+import 'package:badges/badges.dart';
 import 'package:flutter/material.dart';
-import 'package:leihladen_user_frontend_app/config/store.dart';
 import 'package:leihladen_user_frontend_app/model/data_model.dart';
 import 'package:leihladen_user_frontend_app/model/katalog.dart';
 import 'package:leihladen_user_frontend_app/screens/ausleihen/warenkorb_screen.dart';
 import 'package:leihladen_user_frontend_app/screens/katalog/katalog_detail_screen.dart';
-import 'package:leihladen_user_frontend_app/widgets/circular_icon_button_widget.dart';
 import 'package:leihladen_user_frontend_app/widgets/product_card_widget.dart';
 
-class KatalogScreen extends StatelessWidget {
+class KatalogScreen extends StatefulWidget {
   Kategorie kategorie = Kategorie.AZ;
 
   KatalogScreen({this.kategorie = Kategorie.AZ});
 
+  @override
+  _KatalogScreenState createState() => _KatalogScreenState();
+}
+
+class _KatalogScreenState extends State<KatalogScreen> {
   void setFilterKategorie(Kategorie kat) {
-    this.kategorie = kat;
+    this.widget.kategorie = kat;
   }
 
   List<String> KategorieNamen = [
@@ -46,20 +49,36 @@ class KatalogScreen extends StatelessWidget {
       appBar: AppBar(
         centerTitle: true,
         title: Text(
-          "${KategorieNamen[kategorie.index]}",
+          "${KategorieNamen[widget.kategorie.index]}",
           textAlign: TextAlign.center,
         ),
         actions: [
-          IconButton(
-              icon: Icon(Icons.shopping_cart),
-              onPressed: () {
-                Navigator.of(context).push(
-                    MaterialPageRoute(builder: (context) => WarenkorbScreen()));
-              })
+          FlatButton(
+            child: Badge(
+              badgeColor: Colors.white,
+              badgeContent: Text("${DataModel.store.warenkorb.data.length}"),
+              child: ImageIcon(
+                AssetImage("assets/images/symbol/warenkorb_symbol.png"),
+                color: Colors.white,
+              ),
+            ),
+            onPressed: () {
+              //generalDialog(context);
+              Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => WarenkorbScreen(),
+                  )).then((value) {
+                setState(() {
+                  // update
+                });
+              });
+            },
+          ),
         ],
       ),
       body: FutureBuilder(
-          future: getDataFromAsset(kategorie: kategorie),
+          future: getDataFromAsset(kategorie: widget.kategorie),
           builder: (context, snapshot) {
             if (snapshot.connectionState == ConnectionState.none &&
                 snapshot.hasData == null) {
@@ -83,7 +102,15 @@ class KatalogScreen extends StatelessWidget {
                                   eintrag: e,
                                 )));
                       },
-                      child: ProductCardWidget(e),
+                      child: ProductCardWidget(
+                        e,
+                        callback: () {
+                          DataModel.store.warenkorb.addData(e.inventarnummer);
+                          setState(() {
+
+                          });
+                        },
+                      ),
                     );
                   },
                 )),
