@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/painting.dart';
-import 'package:leihladen_user_frontend_app/config/color_config.dart';
 import 'package:leihladen_user_frontend_app/model/data_model.dart';
 import 'package:leihladen_user_frontend_app/model/katalog.dart';
 
@@ -111,8 +110,8 @@ class KatalogDetailScreen extends StatelessWidget {
                   _createRow("Bezeichnung", "${title}",
                       background: true, valbold: true),
                   _createRow("Status", "${eintrag.inventarnummer}"),
-                  _createRow("Leihgebühr", "${eintrag.kleinteil}"),
-                  _createRow("Pfand", "${eintrag.kleinteil}"),
+                  _createRow("Leihgebühr", "${eintrag.kosten}"),
+                  _createRow("Pfand", "${eintrag.kaution}"),
                   _createRow("Kleinteil", "${eintrag.kleinteil}"),
                   _createRow("Dimension", "${eintrag.dimension}"),
                   _createRow("Gewicht", "${eintrag.gewicht}"),
