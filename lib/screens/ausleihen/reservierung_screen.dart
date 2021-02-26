@@ -1,10 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:leihladen_user_frontend_app/messaging/answer.dart';
 import 'package:leihladen_user_frontend_app/messaging/communication.dart';
+import 'package:leihladen_user_frontend_app/model/data_model.dart';
 import 'package:leihladen_user_frontend_app/model/katalog.dart';
 import 'package:leihladen_user_frontend_app/widgets/product_card_widget.dart';
 
-class ReservierungScreen extends StatelessWidget {
+class ReservierungScreen extends StatefulWidget {
+  @override
+  _ReservierungScreenState createState() => _ReservierungScreenState();
+}
+
+class _ReservierungScreenState extends State<ReservierungScreen> {
   Communication cm = Communication();
 
   @override
@@ -17,6 +23,18 @@ class ReservierungScreen extends StatelessWidget {
     return Scaffold(
         appBar: AppBar(
           title: Text("Reservierung"),
+          actions: [
+            IconButton(
+              icon: Icon(Icons.clear),
+              onPressed: () {
+                String udid = DataModel.store.leihausweis.udid;
+                cm.reservierungDeleteUdid(udid);
+                setState(() {
+                  // redraw
+                });
+              },
+            ),
+          ],
         ),
         body: Container(
           //child: _buildFutureBuilderAnserlist(katalog),
@@ -39,8 +57,9 @@ class ReservierungScreen extends StatelessWidget {
   }
 
   FutureBuilder<String> _buildFutureBuilderAnserlist(Katalog katalog) {
+    String udid = DataModel.store.leihausweis.udid;
     return FutureBuilder(
-      future: cm.reservierungListAll(),
+      future: cm.reservierungListUdid(udid),
       builder: (context, snapshot) {
         if (snapshot.connectionState == ConnectionState.none &&
             snapshot.hasData == null) {

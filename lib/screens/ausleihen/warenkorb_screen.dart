@@ -1,6 +1,7 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
+import 'package:leihladen_user_frontend_app/messaging/communication.dart';
 import 'package:leihladen_user_frontend_app/model/data_model.dart';
 import 'package:leihladen_user_frontend_app/model/katalog.dart';
 import 'package:leihladen_user_frontend_app/screens/ausleihen/reservierung_screen.dart';
@@ -13,6 +14,8 @@ class WarenkorbScreen extends StatefulWidget {
 }
 
 class _WarenkorbScreenState extends State<WarenkorbScreen> {
+  Communication cm = Communication();
+
   @override
   void initState() {
     // TODO: implement initState
@@ -138,7 +141,13 @@ class _WarenkorbScreenState extends State<WarenkorbScreen> {
               "Reservierung",
               style: TextStyle(color: Colors.white),
             ),
-            onPressed: () {},
+            onPressed: () {
+              String udid = DataModel.store.leihausweis.udid;
+              for (int i = 0; i < DataModel.store.warenkorb.data.length; i++) {
+                String inventarnummer = DataModel.store.warenkorb.data[i];
+                  cm.reservierungAddUdidInventarnummer(udid, inventarnummer, "2021-20-02", "2021-20-03");
+              }
+            },
           ),
           SizedBox(
             height: 16,

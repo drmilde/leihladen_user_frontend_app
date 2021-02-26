@@ -4,8 +4,6 @@
 
 import 'dart:convert';
 
-import 'package:leihladen_user_frontend_app/model/katalog.dart';
-
 Store storeFromJson(String str) => Store.fromJson(json.decode(str));
 
 String storeToJson(Store data) => json.encode(data.toJson());
