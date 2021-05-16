@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:leihladen_user_frontend_app/config/color_config.dart';
 import 'package:leihladen_user_frontend_app/screens/hauptseiten/abholen_screen.dart';
 import 'package:leihladen_user_frontend_app/screens/hauptseiten/ausleihen_screen.dart';
 import 'package:leihladen_user_frontend_app/screens/hauptseiten/auswaehlen_screen.dart';

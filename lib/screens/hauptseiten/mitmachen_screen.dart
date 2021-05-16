@@ -4,10 +4,7 @@ import 'package:leihladen_user_frontend_app/screens/mitmachen/fragen_screen.dart
 import 'package:leihladen_user_frontend_app/screens/mitmachen/neuigkeiten_screen.dart';
 import 'package:leihladen_user_frontend_app/screens/mitmachen/vorschlaege_screen.dart';
 import 'package:leihladen_user_frontend_app/screens/mitmachen/wunschliste_screen.dart';
-import 'package:leihladen_user_frontend_app/screens/start_screen.dart';
-import 'package:leihladen_user_frontend_app/widgets/app_drawer_widget.dart';
 import 'package:leihladen_user_frontend_app/widgets/bild_widget.dart';
-import 'package:leihladen_user_frontend_app/widgets/bottom_navigation_bar_widget.dart';
 import 'package:leihladen_user_frontend_app/widgets/hauptseiten_widget.dart';
 import 'package:leihladen_user_frontend_app/widgets/infotext_widget.dart';
 import 'package:leihladen_user_frontend_app/widgets/kachel_grid_widget.dart';
